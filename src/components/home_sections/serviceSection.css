@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+
+.serviceSection {
+  margin-top: 50px;
+}
+
+.serviceSection .lineSection {
+  background-image: linear-gradient(to bottom, yellow, rgb(0, 0, 0));
+}
+
+.serviceSection h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000000;
+}
+.serviceSection .serviceCol {
+  display: inline-block;
+  text-align: center;
+}
+
+.serviceSection .serviceCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.serviceSection .serviceCardBg1 {
+  background: #d9fffc;
+}
+.serviceSection .serviceCardBg2 {
+  background: #e4ffc7;
+}
+.serviceSection .serviceCardBg3 {
+  background: #fff3dd;
+}
+.serviceSection .serviceCardBg4 {
+  background: #ffe0e0;
+}
+
+.serviceSection .serviceCard:before {
+  content: "";
+  position: absolute;
+  background: #9bdc28;
+  transition: 0.5s ease-in-out;
+}
+
+.serviceSection .serviceCard:after {
+  content: "TL";
+  position: absolute;
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.serviceSection .serviceImgBox {
+  position: absolute;
+  transition: 0.5s;
+}
+
+.serviceSection .serviceContentBox {
+  position: absolute;
+  transition: 1s;
+}
+
+.serviceSection .serviceContentBox h5 {
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Source Code Pro", monospace;
+  transition: 0.5s;
+}
+
+.serviceSection .serviceNewProject {
+  position: relative;
+  background: #dfdfdf;
+}
+
+.serviceSection .serviceImgBoxEmail {
+  position: relative;
+}
+
+.serviceSection .serviceQuote {
+  position: absolute;
+}
+
+.serviceSection .serviceHireBox {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(232, 240, 249);
+  border-style: solid;
+  border-color: rgb(232, 240, 249);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.serviceSection .hireBx:hover {
+  background-color: rgb(65, 199, 4);
+}
+
+.serviceSection .serviceNewProject a {
+  text-decoration: none;
+}
+.serviceSection .serviceNewProject p {
+  font-family: Lobster;
+}
+.serviceSection .serviceNewProject h2 {
+  color: black;
+}
+
+.serviceSection .serviceNewProject h5 {
+  color: #696868;
+}
+
+@media only screen and (min-width: 1420px) {
+  .serviceSection .serviceCol {
+    width: 25%;
+  }
+
+  .serviceSection .serviceCard {
+    width: 95%;
+    height: 10vw;
+    border-radius: 15px;
+  }
+
+  .serviceSection .serviceCard:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at 90% 0%);
+  }
+
+  .serviceSection .serviceCard:hover:before {
+    clip-path: circle(100% at 80% -20%);
+  }
+
+  .serviceSection .serviceCard:after {
+    top: 0;
+    left: 0;
+    font-size: 10em;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .serviceSection .serviceImgBox {
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  .serviceSection .serviceImgBox img {
+    width: 3vw;
+    height: 3vw;
+  }
+  .serviceSection .serviceCard:hover .serviceImgBox {
+    top: 5%;
+    transform: translateY(0%);
+  }
+
+  .serviceSection .serviceCard .serviceContentBox {
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    z-index: 10;
+  }
+
+  .serviceSection .serviceCard:hover .serviceContentBox {
+    height: 40%;
+  }
+
+  .serviceSection .serviceCard .serviceContentBox h5 {
+    font-size: 1vw;
+  }
+  .serviceSection .serviceCard:hover .serviceContentBox h5 {
+    font-size: 1.5vw;
+  }
+  .serviceSection .serviceNewProject {
+    top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+  }
+
+  .serviceSection .serviceImgBoxEmail {
+    position: relative;
+    left: 5%;
+    top: 40px;
+  }
+
+  .serviceSection .serviceImgBoxEmail img {
+    width: 64px;
+  }
+
+  .serviceSection .serviceQuote {
+    top: 30px;
+    left: 15%;
+  }
+
+  .serviceSection .serviceNewProject h2 {
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .serviceSection .serviceNewProject h5 {
+    font-size: 20px;
+  }
+  .serviceSection .serviceHireBox {
+    top: 50px;
+    width: 250px;
+    height: 50px;
+    right: 5%;
+    border-radius: 10px;
+  }
+  .serviceSection .serviceNewProject p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  .serviceSection .serviceCol {
+    width: 25%;
+  }
+
+  .serviceSection .serviceCard {
+    width: 95%;
+    height: 30vw;
+    border-radius: 10px;
+  }
+
+  .serviceSection .serviceCard:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(75% at 90% 0%);
+  }
+
+  .serviceSection .serviceCard:hover:before {
+    clip-path: circle(100% at 80% -10%);
+  }
+
+  .serviceSection .serviceCard:after {
+    top: 0;
+    left: 0;
+  }
+
+  .serviceSection .serviceImgBox {
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  .serviceSection .serviceImgBox img {
+    width: 8vw;
+    height: 8vw;
+  }
+  .serviceSection .serviceCard:hover .serviceImgBox {
+    top: 5%;
+    transform: translateY(0%);
+  }
+
+  .serviceSection .serviceCard .serviceContentBox {
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    z-index: 10;
+  }
+
+  .serviceSection .serviceCard:hover .serviceContentBox {
+    height: 40%;
+  }
+
+  .serviceSection .serviceCard .serviceContentBox h5 {
+    font-size: 2.5vw;
+  }
+  .serviceSection .serviceCard:hover .serviceContentBox h5 {
+    font-size: 3vw;
+  }
+  .serviceSection .serviceNewProject {
+    top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+  }
+
+  .serviceSection .serviceImgBoxEmail {
+    position: relative;
+    left: 5%;
+    top: 40px;
+  }
+
+  .serviceSection .serviceImgBoxEmail img {
+    width: 64px;
+  }
+
+  .serviceSection .serviceQuote {
+    top: 30px;
+    left: 15%;
+  }
+
+  .serviceSection .serviceNewProject h2 {
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .serviceSection .serviceNewProject h5 {
+    font-size: 20px;
+  }
+  .serviceSection .serviceHireBox {
+    top: 130px;
+    width: 250px;
+    height: 50px;
+    right: 40%;
+    border-radius: 10px;
+  }
+  .serviceSection .serviceNewProject p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .serviceSection .serviceCol {
+    width: 50%;
+  }
+
+  .serviceSection .serviceCard {
+    width: 95%;
+    height: 30vw;
+    border-radius: 10px;
+  }
+
+  .serviceSection .serviceCard:before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(75% at 90% 0%);
+  }
+
+  .serviceSection .serviceCard:hover:before {
+    clip-path: circle(100% at 80% -10%);
+  }
+
+  .serviceSection .serviceCard:after {
+    top: 0;
+    left: 0;
+  }
+
+  .serviceSection .serviceImgBox {
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  .serviceSection .serviceImgBox img {
+    width: 10vw;
+    height: 10vw;
+  }
+  .serviceSection .serviceCard:hover .serviceImgBox {
+    top: 5%;
+    transform: translateY(0%);
+  }
+
+  .serviceSection .serviceCard .serviceContentBox {
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    z-index: 10;
+  }
+
+  .serviceSection .serviceCard:hover .serviceContentBox {
+    height: 40%;
+  }
+
+  .serviceSection .serviceCard .serviceContentBox h5 {
+    font-size: 3vw;
+  }
+  .serviceSection .serviceCard:hover .serviceContentBox h5 {
+    font-size: 3.5vw;
+  }
+  .serviceSection .serviceNewProject {
+    top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+  }
+
+  .serviceSection .serviceImgBoxEmail {
+    position: relative;
+    left: 2%;
+    top: 15px;
+  }
+
+  .serviceSection .serviceImgBoxEmail img {
+    width: 43px;
+  }
+
+  .serviceSection .serviceQuote {
+    top: 10px;
+    left: 15%;
+  }
+
+  .serviceSection .serviceNewProject h2 {
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  .serviceSection .serviceNewProject h5 {
+    font-size: 20px;
+  }
+  .serviceSection .serviceHireBox {
+    top: 90px;
+    width: 250px;
+    height: 50px;
+    right: 20%;
+    border-radius: 5px;
+  }
+  .serviceSection .serviceNewProject p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}

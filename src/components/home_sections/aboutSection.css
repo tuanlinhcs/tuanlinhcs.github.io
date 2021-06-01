@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700,800,900&display=swap");
+
+.aboutSection {
+  display: block;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.aboutSection h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: black;
+}
+
+.aboutSection .aboutRow {
+  position: relative;
+  display: inline-grid;
+}
+
+.aboutSection .aboutTitle {
+  font-family: "Rowdies", cursive;
+}
+
+.aboutSection .aboutRow p {
+  text-align: left;
+}
+
+.aboutSection .aboutSquare {
+  background: rgb(7, 148, 49);
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px rgb(73, 136, 92);
+  justify-content: right;
+  align-items: right;
+}
+
+.aboutSection .aboutSquare:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.aboutSection .aboutSquareContent h1 {
+  color: white;
+  vertical-align: middle;
+  text-shadow: 2px 2px 5px rgb(2, 80, 26);
+}
+
+.aboutSection .aboutSquareContent h5 {
+  color: white;
+}
+
+.aboutSection .aboutRowNew {
+  display: inline-grid;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.aboutSection .aboutRowNew a {
+  text-decoration: none;
+}
+
+.aboutSection .aboutRowNew p {
+  font-family: Lobster;
+}
+
+.aboutSection .aboutHire {
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-style: solid;
+  border-color: #e8f0f9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.aboutSection .aboutHire:hover {
+  background-color: #42f587;
+}
+
+.aboutSection .aboutDownload:hover {
+  background-color: #42f587;
+}
+
+.aboutSection .aboutDownload {
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  width: 100%;
+  transition: 0.5s;
+  background-color: rgb(232, 240, 249);
+  border-color: rgb(232, 240, 249);
+}
+
+@media only screen and (min-width: 1420px) {
+  .aboutSection {
+    margin-top: 50px;
+  }
+
+  .aboutSection .aboutRow {
+    grid-template-columns: 15% 35% 15% 35%;
+  }
+
+  .aboutSection .aboutRow p {
+    padding-right: 30px;
+  }
+
+  .aboutSection .aboutTitle {
+    font-size: 40px;
+    padding-right: 5px;
+  }
+
+  .aboutSection .aboutSquare {
+    width: 120px;
+    max-height: 180px;
+    min-height: 120px;
+    border-radius: 10px;
+  }
+
+  .aboutSection .aboutSquareContent h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .aboutSection .aboutSquareContent h5 {
+    font-size: 20px;
+  }
+
+  .aboutSection .aboutRowNew {
+    grid-template-columns: 12% 35% 6% 35% 12%;
+  }
+
+  .aboutSection .aboutHire,
+  .aboutDownload {
+    border-radius: 20px;
+    padding: 0px 30px;
+  }
+
+  .aboutSection .aboutRowNew p {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  .aboutSection {
+    margin-top: 30px;
+  }
+
+  .aboutSection .aboutRow {
+    grid-template-columns: 15% 35% 15% 35%;
+  }
+
+  .aboutSection .aboutRow p {
+    padding-right: 30px;
+  }
+
+  .aboutSection .aboutTitle {
+    font-size: 30px;
+  }
+
+  .aboutSection .aboutSquare {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+  }
+
+  .aboutSection .aboutSquareContent h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  .aboutSection .aboutSquareContent h5 {
+    font-size: 15px;
+  }
+
+  .aboutSection .aboutRowNew {
+    grid-template-columns: 12% 35% 6% 35% 12%;
+  }
+
+  .aboutSection .aboutHire,
+  .aboutDownload {
+    border-radius: 5px;
+    padding: 0px 30px;
+  }
+
+  .aboutSection .aboutRowNew p {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutSection {
+    margin-top: 30px;
+  }
+
+  .aboutSection .aboutRow {
+    grid-template-columns: 30% 70%;
+  }
+
+  .aboutSection .aboutTitle {
+    font-size: 30px;
+  }
+
+  .aboutSection .aboutSquare {
+    height: 130px;
+    border-radius: 5px;
+  }
+
+  .aboutSection .aboutSquareRow h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  .aboutSection .aboutSquareRow h5 {
+    font-size: 15px;
+  }
+
+  .aboutSection .aboutRowNew {
+    grid-template-columns: 0 47% 6% 47% 0;
+  }
+
+  .aboutSection .aboutHire,
+  .aboutDownload {
+    border-radius: 5px;
+  }
+
+  .aboutSection .aboutRowNew p {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 5px;
+  }
+}

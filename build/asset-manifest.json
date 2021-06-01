@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6ed0bdc3.chunk.css",
+    "main.js": "./static/js/main.337a74ec.chunk.js",
+    "main.js.map": "./static/js/main.337a74ec.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ebc19d13.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ebc19d13.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.618081e2.chunk.js": "./static/js/2.618081e2.chunk.js",
+    "static/js/2.618081e2.chunk.js.map": "./static/js/2.618081e2.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6ed0bdc3.chunk.css.map": "./static/css/main.6ed0bdc3.chunk.css.map",
+    "static/js/2.618081e2.chunk.js.LICENSE.txt": "./static/js/2.618081e2.chunk.js.LICENSE.txt",
+    "static/media/Logo.136c6df0.png": "./static/media/Logo.136c6df0.png",
+    "static/media/Resume2021.8daf7167.pdf": "./static/media/Resume2021.8daf7167.pdf",
+    "static/media/topSection.css": "./static/media/background.8dc3ca89.png",
+    "static/media/flask-python.2becbe56.png": "./static/media/flask-python.2becbe56.png",
+    "static/media/freelancer.822a4874.png": "./static/media/freelancer.822a4874.png",
+    "static/media/icon-upwork.21b87a33.png": "./static/media/icon-upwork.21b87a33.png",
+    "static/media/icons8-java-480.bf00b9fc.png": "./static/media/icons8-java-480.bf00b9fc.png",
+    "static/media/person.37cab245.png": "./static/media/person.37cab245.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebc19d13.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.618081e2.chunk.js",
+    "static/css/main.6ed0bdc3.chunk.css",
+    "static/js/main.337a74ec.chunk.js"
+  ]
+}

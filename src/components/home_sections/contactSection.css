@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;500;700;900&display=swap");
+
+.contactSection {
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.contactSection .lineSection {
+  background-image: linear-gradient(to bottom, green, rgb(0, 0, 0));
+}
+
+.contactSection .contactContainer {
+  margin-top: 20px;
+}
+
+.contactSection .contactRowSocial {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.contactSection .contactBox {
+  display: inline-grip;
+  grid-template-columns: 40% 60%;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  border-style: solid;
+  width: 300px;
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(20, 130, 255);
+  border-radius: 15px;
+}
+
+.contactSection .contactBox:hover {
+  background-color: #42f587;
+}
+
+.contactSection a:link {
+  text-decoration: none;
+}
+.contactSection .contactBoxImage {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.contactSection .contactBoxImage img {
+  width: 48px;
+  height: 48px;
+}
+
+.contactSection .contactBoxText {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.contactSection .contactBoxText h5 {
+  font-family: "Source Code Pro";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 1420px) {
+  .contactSection {
+    margin-top: 500px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .contactSection .contactContainer {
+    margin-top: 20px;
+  }
+
+  .contactSection .contactRowSocial {
+    margin-top: 40px;
+  }
+
+  .contactSection .contactBox {
+    grid-template-columns: 40% 60%;
+    width: 300px;
+    border-radius: 15px;
+  }
+
+  .contactSection .contactBoxImage {
+    margin-left: 5px;
+  }
+
+  .contactSection .contactBoxImage img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contactSection .contactBoxText {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .contactSection .contactBoxText h5 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  .contactSection {
+    margin-top: 500px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .contactSection .contactContainer {
+    margin-top: 20px;
+  }
+
+  .contactSection .contactRowSocial {
+    margin-top: 40px;
+  }
+
+  .contactSection .contactBox {
+    grid-template-columns: 40% 60%;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .contactSection .contactBoxImage {
+    margin-left: 5px;
+  }
+
+  .contactSection .contactBoxImage img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contactSection .contactBoxText {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .contactSection .contactBoxText h5 {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactSection {
+    margin-top: 300px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .contactSection .contactContainer {
+    margin-top: 20px;
+  }
+
+  .contactSection .contactRowSocial {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .contactSection .contactBox {
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 40% 60%;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .contactSection .contactBoxImage {
+    margin-left: 5px;
+  }
+
+  .contactSection .contactBoxImage img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contactSection .contactBoxText {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .contactSection .contactBoxText h5 {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}

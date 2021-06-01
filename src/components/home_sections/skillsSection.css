@@ -873,7 +873,7 @@
   /*--------------------------------------------------------------------------------*/
   .skillsSection .skillsRowCircle {
     display: inline-grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
   .skillsSection .skillCircleCard {
     width: 200px;
@@ -1061,7 +1061,7 @@
   /* row 3 */
   .skillsSection .skillHexagon_r3c4 {
     top: 218px;
-    left: 315px;
+    left: 105px;
   }
   .skillsSection .skillExtraImage_r3c4 {
     top: 10px;

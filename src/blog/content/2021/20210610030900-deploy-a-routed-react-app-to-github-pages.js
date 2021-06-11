@@ -215,17 +215,35 @@ export default class page_20210610030900 extends Component {
             <p>
               One last thing we should do is wrap our entire project in a Router
               component. We need to do this because it enables us to use routing
-              in our application. We will be using the BrowserRouter component
-              as it uses HTML5's history API.
-            </p>
-            <Gist id="cd9e4f9b109d38fff5d3e7a759d9466e" file="index.js" />
-            <p>
-              One last thing we should do is wrap our entire project in a Router
-              component. We need to do this because it enables us to use routing
               in our application. We will be using the{" "}
               <strong>BrowserRouter</strong> component as it uses HTML5's
               history API.
             </p>
+            <Gist id="cd9e4f9b109d38fff5d3e7a759d9466e" file="index.js" />
+            <p>
+              If we run things locally, everything seems to work. Let's deploy
+              our augmented project to GitHub Pages and see what the result is.
+            </p>
+            <h2>Fix error status 404</h2>
+            <p>
+              Add more script to{" "}
+              <strong>
+                <i>public/index.html</i>
+              </strong>
+            </p>
+            <Gist id="cd9e4f9b109d38fff5d3e7a759d9466e" file="index.html" />
+            <p>
+              create file{" "}
+              <strong>
+                <i>404.html</i>
+              </strong>{" "}
+              to{" "}
+              <strong>
+                <i>public folder</i>
+              </strong>
+              :
+            </p>
+            <Gist id="cd9e4f9b109d38fff5d3e7a759d9466e" file="404.html" />
             <h2>Custom domain and make them secure:</h2>
             <p>
               For turning out page more professional, we will use a domain to

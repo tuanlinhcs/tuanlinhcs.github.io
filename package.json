@@ -1,7 +1,8 @@
 {
   "name": "tuanlinhcs",
-  "homepage": ".",
   "version": "1.0.0",
+  "homepage": ".",
+  "main": "index.js",
   "license": "",
   "private": true,
   "engines": {

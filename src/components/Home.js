@@ -8,6 +8,12 @@ import AboutSection from "./home_sections/aboutSection";
 import ServiceSection from "./home_sections/serviceSection";
 import SkillsSection from "./home_sections/skillsSection";
 import ContactSection from "./home_sections/contactSection";
+import BlogSection from "./home_sections/blogSection";
+
+/*
+        
+*/
+
 export default class Home extends Component {
   render() {
     return (
@@ -22,6 +28,20 @@ export default class Home extends Component {
         <Element name="idServiceSection">
           <div className="homeContainer">
             <ServiceSection></ServiceSection>
+          </div>
+        </Element>
+        <Element name="idBlogSection">
+          <div
+            style={{
+              width: "100%",
+              background: "#F3E3FD",
+              top: "-50px",
+              paddingTop: "100px",
+            }}
+          >
+            <div className="homeContainer">
+              <BlogSection></BlogSection>
+            </div>
           </div>
         </Element>
         <Element name="idSkillsSection">

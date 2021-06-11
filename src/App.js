@@ -7,21 +7,20 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Pages from "./components/pages";
 
+import * as pages from "blog/content/2021";
+
 import ReactGA from "react-ga";
 const TRACKING_ID = "G-BMDRVCLSTE"; // TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
-import * as pages from "blog/content/2021";
-
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/pages" component={Pages} />
-            <></>{" "}
             <Route
               exact
               path="/deploy-a-routed-react-app-to-github-pages"

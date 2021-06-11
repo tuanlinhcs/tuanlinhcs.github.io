@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.d98407a2.chunk.css",
-    "main.js": "./static/js/main.cc133cb9.chunk.js",
-    "main.js.map": "./static/js/main.cc133cb9.chunk.js.map",
+    "main.css": "./static/css/main.58aab514.chunk.css",
+    "main.js": "./static/js/main.b11330c4.chunk.js",
+    "main.js.map": "./static/js/main.b11330c4.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ebc19d13.js",
     "runtime-main.js.map": "./static/js/runtime-main.ebc19d13.js.map",
     "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.618081e2.chunk.js": "./static/js/2.618081e2.chunk.js",
-    "static/js/2.618081e2.chunk.js.map": "./static/js/2.618081e2.chunk.js.map",
+    "static/js/2.2fc40441.chunk.js": "./static/js/2.2fc40441.chunk.js",
+    "static/js/2.2fc40441.chunk.js.map": "./static/js/2.2fc40441.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d98407a2.chunk.css.map": "./static/css/main.d98407a2.chunk.css.map",
-    "static/js/2.618081e2.chunk.js.LICENSE.txt": "./static/js/2.618081e2.chunk.js.LICENSE.txt",
+    "static/css/main.58aab514.chunk.css.map": "./static/css/main.58aab514.chunk.css.map",
+    "static/js/2.2fc40441.chunk.js.LICENSE.txt": "./static/js/2.2fc40441.chunk.js.LICENSE.txt",
+    "static/media/2021061001-deploy-a-routed-react-app-to-github-pages.7614364a.png": "./static/media/2021061001-deploy-a-routed-react-app-to-github-pages.7614364a.png",
+    "static/media/2021061002-deploy-a-routed-react-app-to-github-pages.ffd2e2d0.png": "./static/media/2021061002-deploy-a-routed-react-app-to-github-pages.ffd2e2d0.png",
+    "static/media/2021061003-deploy-a-routed-react-app-to-github-pages.74dbb54b.png": "./static/media/2021061003-deploy-a-routed-react-app-to-github-pages.74dbb54b.png",
     "static/media/Logo.136c6df0.png": "./static/media/Logo.136c6df0.png",
     "static/media/Resume2021.438b5513.pdf": "./static/media/Resume2021.438b5513.pdf",
     "static/media/topSection.css": "./static/media/background.8dc3ca89.png",
@@ -19,13 +22,14 @@
     "static/media/freelancer.822a4874.png": "./static/media/freelancer.822a4874.png",
     "static/media/icon-upwork.21b87a33.png": "./static/media/icon-upwork.21b87a33.png",
     "static/media/icons8-java-480.bf00b9fc.png": "./static/media/icons8-java-480.bf00b9fc.png",
+    "static/media/logo192.52ced8e5.png": "./static/media/logo192.52ced8e5.png",
     "static/media/person.37cab245.png": "./static/media/person.37cab245.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ebc19d13.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.618081e2.chunk.js",
-    "static/css/main.d98407a2.chunk.css",
-    "static/js/main.cc133cb9.chunk.js"
+    "static/js/2.2fc40441.chunk.js",
+    "static/css/main.58aab514.chunk.css",
+    "static/js/main.b11330c4.chunk.js"
   ]
 }

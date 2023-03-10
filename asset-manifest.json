@@ -1,35 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.fef5298b.chunk.css",
-    "main.js": "./static/js/main.ebd41531.chunk.js",
-    "main.js.map": "./static/js/main.ebd41531.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.ebc19d13.js",
-    "runtime-main.js.map": "./static/js/runtime-main.ebc19d13.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.375a92fc.chunk.js": "./static/js/2.375a92fc.chunk.js",
-    "static/js/2.375a92fc.chunk.js.map": "./static/js/2.375a92fc.chunk.js.map",
+    "main.css": "./static/css/main.3e84fcae.css",
+    "main.js": "./static/js/main.d92bd5bc.js",
+    "static/js/787.e6c49352.chunk.js": "./static/js/787.e6c49352.chunk.js",
+    "static/media/me.png": "./static/media/me.183eddc808c8c164c2d7.png",
+    "static/media/logo.png": "./static/media/logo.0ecaa9fe5c2c50f62d26.png",
     "index.html": "./index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.fef5298b.chunk.css.map": "./static/css/main.fef5298b.chunk.css.map",
-    "static/js/2.375a92fc.chunk.js.LICENSE.txt": "./static/js/2.375a92fc.chunk.js.LICENSE.txt",
-    "static/media/2021061001-deploy-a-routed-react-app-to-github-pages.7614364a.png": "./static/media/2021061001-deploy-a-routed-react-app-to-github-pages.7614364a.png",
-    "static/media/2021061002-deploy-a-routed-react-app-to-github-pages.ffd2e2d0.png": "./static/media/2021061002-deploy-a-routed-react-app-to-github-pages.ffd2e2d0.png",
-    "static/media/2021061003-deploy-a-routed-react-app-to-github-pages.74dbb54b.png": "./static/media/2021061003-deploy-a-routed-react-app-to-github-pages.74dbb54b.png",
-    "static/media/Logo.136c6df0.png": "./static/media/Logo.136c6df0.png",
-    "static/media/Resume2021.438b5513.pdf": "./static/media/Resume2021.438b5513.pdf",
-    "static/media/topSection.css": "./static/media/background.8dc3ca89.png",
-    "static/media/flask-python.2becbe56.png": "./static/media/flask-python.2becbe56.png",
-    "static/media/freelancer.822a4874.png": "./static/media/freelancer.822a4874.png",
-    "static/media/icon-upwork.21b87a33.png": "./static/media/icon-upwork.21b87a33.png",
-    "static/media/icons8-java-480.bf00b9fc.png": "./static/media/icons8-java-480.bf00b9fc.png",
-    "static/media/logo192.52ced8e5.png": "./static/media/logo192.52ced8e5.png",
-    "static/media/person.37cab245.png": "./static/media/person.37cab245.png"
+    "main.3e84fcae.css.map": "./static/css/main.3e84fcae.css.map",
+    "main.d92bd5bc.js.map": "./static/js/main.d92bd5bc.js.map",
+    "787.e6c49352.chunk.js.map": "./static/js/787.e6c49352.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebc19d13.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.375a92fc.chunk.js",
-    "static/css/main.fef5298b.chunk.css",
-    "static/js/main.ebd41531.chunk.js"
+    "static/css/main.3e84fcae.css",
+    "static/js/main.d92bd5bc.js"
   ]
 }

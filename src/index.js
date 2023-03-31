@@ -1,24 +1,24 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-
-import "./index.css";
+import ReactDOM from "react-dom/client";
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
-import "bootstrap/dist/css/bootstrap.min.css";
+import reportWebVitals from "./reportWebVitals";
+import ReactGA from "react-ga";
 
-ReactDOM.render(
-  //  <React.StrictMode>
-  //    <App />
-  //  </React.StrictMode>,
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+import "./index.scss";
+import "styles/fonts.scss";
+import "styles/responsive.scss";
+import "components/ui/buttons/index.scss";
+
+ReactGA.initialize("274236139");
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
     <App />
-  </BrowserRouter>,
-
-  document.getElementById("root")
+  </React.StrictMode>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

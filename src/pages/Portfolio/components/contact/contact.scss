@@ -1,0 +1,22 @@
+@import "breakpoints";
+
+.section-contact {
+  text-align: center;
+  h1 {
+    color: var(--white);
+    font-size: 2em;
+  }
+  p {
+    font-size: var(--fz-md);
+    width: 60%;
+    margin-left: 20%;
+    @include breakpoint(md) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}

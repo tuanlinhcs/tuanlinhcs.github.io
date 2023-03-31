@@ -1,0 +1,53 @@
+@import "styles/color";
+@import "../header";
+
+$logo-size: 50px;
+
+.nav01 {
+  border-bottom: 5px solid $green;
+  display: flex;
+  width: 100%;
+  height: $nav-height;
+  overflow: hidden;
+  background-color: $yellow;
+  position: fixed;
+  top: 0;
+  .container-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 35%;
+    img {
+      width: $logo-size;
+      height: $logo-size;
+    }
+    h1 {
+      width: fit-content;
+      font-family: "Lobster", cursive;
+      font-size: 35px;
+      margin-left: 10px;
+    }
+  }
+  .container-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 55%;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      width: 50%;
+      list-style-type: none; /* Remove bullets */
+      li {
+        font-size: 1em;
+      }
+    }
+  }
+}

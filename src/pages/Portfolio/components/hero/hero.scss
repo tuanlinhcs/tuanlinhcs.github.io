@@ -1,0 +1,24 @@
+@import "breakpoints";
+.section-hero {
+  margin-bottom: 200px;
+  h1 {
+    margin: 0;
+    font-size: clamp(20px, 8vw, 40px);
+  }
+  .name {
+    color: var(--white);
+    font-size: clamp(40px, 8vw, 80px);
+  }
+  p {
+    font-size: var(--fz-md);
+    width: 60%;
+    @include breakpoint(md) {
+      width: 80%;
+    }
+  }
+  .btn-primary {
+    padding: 20px 30px;
+    font-size: var(--fz-md);
+    margin-top: 30px;
+  }
+}

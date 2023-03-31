@@ -1,0 +1,140 @@
+@import "breakpoints";
+.section-projects {
+  header {
+    width: 70%;
+    @include breakpoint(md) {
+      width: 100%;
+    }
+  }
+  .project-theme {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin: 100px auto;
+    overflow: hidden;
+
+    .image-container {
+      display: block;
+      position: absolute;
+      width: 60%;
+      @include breakpoint(md) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+      z-index: 0;
+    }
+    .project-info {
+      display: block;
+      position: relative;
+      z-index: 1;
+      width: 60%;
+      @include breakpoint(md) {
+        width: 100%;
+        text-align: left;
+        margin-left: 0 !important;
+        background-color: var(--navy);
+        background-color: var(--navy-shadow);
+        padding: 10%;
+      }
+
+      h3 {
+        color: var(--green);
+        font-size: var(--fz-md);
+        font-weight: normal;
+        font-family: var(--font-mono);
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        color: var(--lightest-slate);
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+      .box {
+        padding: 10px 20px;
+        font-size: var(--fz-md);
+        border-radius: 5px;
+        background-color: var(--light-navy);
+
+        @include breakpoint(md) {
+          background-color: transparent;
+          padding: 0;
+        }
+      }
+      .tags {
+        display: flex;
+        font-size: var(--fz-sm);
+        font-family: var(--font-mono);
+      }
+      .links {
+        .link {
+          .icon {
+            color: var(--white);
+            cursor: pointer;
+            transition: var(--transition);
+            &:hover {
+              color: var(--green);
+            }
+          }
+        }
+      }
+    }
+  }
+  .type-right {
+    text-align: right;
+    .project-info {
+      margin-left: 40%;
+      .tags {
+        margin: 20px auto;
+        justify-content: right;
+        @include breakpoint(md) {
+          justify-content: left;
+        }
+        span {
+          margin-left: 5%;
+          @include breakpoint(md) {
+            margin-left: 0;
+            margin-right: 5%;
+          }
+        }
+      }
+      .links {
+        .link {
+          .icon {
+            margin-left: 5%;
+            @include breakpoint(md) {
+              margin-left: 0;
+              margin-right: 5%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .type-left {
+    text-align: left;
+    .image-container {
+      margin-left: 40%;
+    }
+    .project-info {
+      .tags {
+        margin: 20px auto;
+        justify-content: left;
+        span {
+          margin-right: 5%;
+        }
+      }
+      .links {
+        .link {
+          .icon {
+            margin-right: 5%;
+          }
+        }
+      }
+    }
+  }
+}

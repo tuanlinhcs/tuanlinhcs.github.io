@@ -1,0 +1,34 @@
+@import "styles/color.scss";
+
+.not-found {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Rubik Iso", cursive;
+    font-size: 15em;
+    color: $red;
+  }
+  h2 {
+    color: $dark-green;
+    font-family: "Carter One", cursive;
+    font-size: 3em;
+    margin: 0;
+  }
+  h3 {
+    margin: 0;
+    color: $dark-green;
+    font-size: 1.5em;
+  }
+  a {
+    margin-top: 60px;
+  }
+}

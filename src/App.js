@@ -13,6 +13,10 @@ import BlogsPages from "pages/Blogs/pages/index";
 
 // const NotFound = lazy(() => import("./pages/404"));
 
+// * ============
+// * = Projects =
+// * ============
+
 function App() {
   return (
     <>

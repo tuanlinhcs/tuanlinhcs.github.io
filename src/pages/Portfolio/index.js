@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 
-import "./index.scss";
+import "./styles/index.scss";
 
 // Import components
 import Navbar from "./components/navbar";
@@ -13,13 +13,13 @@ import Projects from "./components/projects";
 import Blogs from "./components/blogs";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import SideBar from "./components/navbar/sidebar";
+import SideBar from "./components/sidebar";
 
 function Portfolio() {
   ReactGA.pageview("/portfolio-brittanychiang");
 
   return (
-    <div className="Portfolio">
+    <div className="Portfolio-Brittanychiang">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Tuan Le</title>

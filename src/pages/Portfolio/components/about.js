@@ -1,4 +1,4 @@
-import "./about.scss";
+import "../styles/about.scss";
 import IMG_me from "assets/images/me.png";
 
 export default function About() {

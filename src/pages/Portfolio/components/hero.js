@@ -1,4 +1,4 @@
-import "./hero.scss";
+import "../styles/hero.scss";
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";
 export default function Hero() {
   return (

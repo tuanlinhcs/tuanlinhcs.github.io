@@ -1,7 +1,10 @@
+import LazyLoad from "react-lazyload";
+
 import ProjectsDB from "data/projects";
-import "./projects.scss";
+import "../styles/projects.scss";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";
+import { ImageSkeleton } from "../ui/images/skeleton";
 
 function ProjectTheme({ project, type }) {
   const handleClickLink = (link) => {
@@ -13,7 +16,11 @@ function ProjectTheme({ project, type }) {
   return (
     <div className={"project-theme type-" + type} id="projects">
       <div className="image-container">
-        <img src={project.imageURl} alt={project.name} />
+        {/* <img src={project.imageURl} alt={project.name} /> */}
+
+        <LazyLoad placeholder={<ImageSkeleton />}>
+          <img src={project.imageURl} alt={project.name} />
+        </LazyLoad>
       </div>
       <div className="project-info">
         <h3>{project.type} Project</h3>

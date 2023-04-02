@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import JobsDB from "data/jobs";
-import "./jobs.scss";
+import "../styles/jobs.scss";
 
 export default function Jobs() {
   const [selectedOption, setSelectedOption] = useState(0);

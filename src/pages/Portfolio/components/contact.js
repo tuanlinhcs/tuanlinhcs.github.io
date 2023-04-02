@@ -1,4 +1,4 @@
-import "./contact.scss";
+import "../styles/contact.scss";
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";
 export default function Contact() {
   return (

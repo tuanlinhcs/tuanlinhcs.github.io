@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "assets/images/logo.png";
 
-import "./navbar.scss";
+import "../styles/navbar.scss";
 
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";
 

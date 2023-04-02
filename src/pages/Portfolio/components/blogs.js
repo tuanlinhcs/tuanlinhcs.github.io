@@ -1,4 +1,4 @@
-import "./blogs.scss";
+import "../styles/blogs.scss";
 import BlogsDB from "data/blogs";
 import { FiExternalLink, FiBox } from "react-icons/fi";
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";

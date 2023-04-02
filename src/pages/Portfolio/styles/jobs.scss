@@ -1,0 +1,68 @@
+@import "breakpoints";
+.Portfolio-Brittanychiang {
+  .section-jobs {
+    width: 70%;
+    margin-left: 10%;
+    @include breakpoint(xl) {
+      width: 85%;
+      margin-left: 10%;
+    }
+    @include breakpoint(md) {
+      width: 90%;
+      margin-left: 10%;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    .jobs-container {
+      display: flex;
+      @include breakpoint(sm) {
+        display: block;
+        overflow-x: scroll;
+      }
+      .col-left {
+        margin-right: 10%;
+        @include breakpoint(xl) {
+          margin-right: 5%;
+        }
+      }
+      .job {
+        display: flex;
+        justify-content: left;
+        padding-left: 10%;
+        font-size: var(--fz-sm);
+        font-family: var(--font-mono);
+        cursor: pointer;
+        border-left: 1px solid var(--lightest-navy);
+        &:hover {
+          background-color: var(--light-navy);
+          color: var(--green);
+          transition: ease-in-out 0.7s;
+        }
+      }
+      .active {
+        color: var(--green) !important;
+        border-left: 2px solid var(--green);
+      }
+      .duration {
+        font-family: var(--font-mono) !important;
+        font-size: var(--fz-sm);
+        margin: 10px 0;
+      }
+      h3 {
+        color: var(--white);
+        font-weight: normal;
+        margin: 0;
+      }
+      ul {
+        font-size: var(--fz-md);
+        list-style-type: none;
+        li {
+          &::before {
+            font-size: var(--fz-xxl);
+          }
+        }
+      }
+    }
+  }
+}

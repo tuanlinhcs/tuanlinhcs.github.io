@@ -16,8 +16,6 @@ function ProjectTheme({ project, type }) {
   return (
     <div className={"project-theme type-" + type} id="projects">
       <div className="image-container">
-        {/* <img src={project.imageURl} alt={project.name} /> */}
-
         <LazyLoad placeholder={<ImageSkeleton />}>
           <img src={project.imageURl} alt={project.name} />
         </LazyLoad>

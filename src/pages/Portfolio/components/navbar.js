@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import LazyLoad from "react-lazyload";
 import Logo from "assets/images/logo.png";
 
 import "../styles/navbar.scss";
 
 import { ButtonPrimaryNewTabLink } from "../ui/buttons";
+import { ImageSkeleton } from "../ui/images/skeleton";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +27,9 @@ function NavBar() {
   return (
     <nav className="nav-portfolio-20230223">
       <div className="nav-logo">
-        <img src={Logo} alt="logo" />
+        <LazyLoad placeholder={<ImageSkeleton />}>
+          <img src={Logo} alt="logo" />
+        </LazyLoad>
       </div>
       <div id="nav-icon2" onClick={handleBurgerMenu}>
         <span></span>

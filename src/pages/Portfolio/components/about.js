@@ -1,3 +1,6 @@
+import LazyLoad from "react-lazyload";
+import { ImageSkeleton } from "../ui/images/skeleton";
+
 import "../styles/about.scss";
 import IMG_me from "assets/images/me.png";
 
@@ -36,7 +39,9 @@ export default function About() {
       <div className="col-50">
         <div className="author-image">
           <div className="image-frame"></div>
-          <img src={IMG_me} alt="Tuan Le" />
+          <LazyLoad placeholder={<ImageSkeleton />}>
+            <img src={IMG_me} alt="Tuan Le" />
+          </LazyLoad>
         </div>
       </div>
     </section>

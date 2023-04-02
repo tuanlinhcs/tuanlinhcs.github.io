@@ -22,7 +22,7 @@ function Portfolio() {
     <div className="Portfolio-Brittanychiang">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Tuan Le</title>
+        <title>Tuan Le v2.0.2</title>
       </Helmet>
       <div className="layout">
         <Navbar />

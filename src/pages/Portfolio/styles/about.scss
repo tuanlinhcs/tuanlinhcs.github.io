@@ -33,7 +33,7 @@
         font-size: var(--fz-sm);
       }
     }
-    .author-image {
+    .author-image-container {
       display: flex;
       justify-content: center;
       width: 70%;
@@ -49,26 +49,33 @@
         width: 70%;
         margin-left: 15%;
       }
-      img {
-        width: 80%;
-        height: 80%;
+      $author-image-size: 300px;
+      @include breakpoint(xl) {
+        $author-image-size: 250px;
+      }
+      @include breakpoint(md) {
+      }
+      .author-image {
+        position: relative;
+        width: $author-image-size;
+        height: $author-image-size;
         border-radius: 5px;
         z-index: 2;
       }
       .image-frame {
         position: absolute;
-        width: 80%;
-        height: 100%;
-        margin-left: 10%;
-        margin-top: 5%;
+        width: $author-image-size;
+        height: $author-image-size;
+        margin-top: 25px;
+        margin-left: 50px;
         border: 2px solid var(--green);
         border-radius: 5px;
-        z-index: 1;
+        z-index: 0;
       }
       &:hover {
         .image-frame {
-          margin-left: 5%;
-          margin-top: 2.5%;
+          margin-top: 15px;
+          margin-left: 35px;
           transition: var(--transition);
         }
       }

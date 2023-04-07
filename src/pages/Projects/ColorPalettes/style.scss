@@ -1,0 +1,179 @@
+@import "breakpoints";
+@import "styles/color";
+
+.color-palettes-export-code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+
+  .cover {
+    background-color: $dark-green;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.9;
+  }
+  .export-code {
+    background-color: white;
+    z-index: 5;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+
+    &::-webkit-scrollbar {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    .container {
+      width: 500px;
+      height: 500px;
+      pre {
+        width: 450px;
+        height: 350px;
+        margin: 15px;
+        border: 1px solid $french-gray;
+        background: white !important;
+        &::-webkit-scrollbar {
+          /* Hide scrollbar for Chrome, Safari and Opera */
+          display: none;
+        }
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        code {
+          font-family: monospace;
+        }
+      }
+      .controllers {
+        height: 60px;
+        border-top: 1px solid $french-gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button {
+          height: 40px;
+          width: 220px;
+          font-family: monospace;
+          font-size: 20px;
+          cursor: pointer;
+        }
+        .download {
+          background-color: transparent;
+          border: 1px solid $french-gray;
+          border-radius: 10px;
+          color: $dark-green;
+          &:hover {
+            border: 1px solid $slate-gray;
+          }
+        }
+        .copy {
+          background-color: $green;
+          border-color: transparent;
+          box-shadow: transparent;
+          border-radius: 10px;
+          color: white;
+          &:hover {
+            background-color: $dark-green;
+          }
+        }
+      }
+      .top {
+        width: 500px;
+        height: 40px;
+        border-bottom: 1px solid $french-gray;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        h3 {
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+        .icon {
+          position: absolute;
+          left: 20px;
+          color: $red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.color-palettes {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 80%;
+
+    .header {
+      text-align: center;
+      h1 {
+        font-size: 5em;
+        font-family: "Lobster", cursive;
+      }
+      p {
+        color: #606c38;
+        font-size: 1.3em;
+        width: 80%;
+        margin-left: 10%;
+      }
+    }
+    .explore-palettes {
+      width: 100%;
+      padding-top: 100px;
+      .palette_container {
+        margin-bottom: 100px;
+        position: relative;
+        .explore-palettes_col {
+          height: 150px;
+          border-radius: 15px 15px 0px 15px;
+          display: flex;
+          overflow: hidden;
+          .palette-card {
+            height: 150px;
+            width: 25%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            h3 {
+              @include breakpoint(md) {
+                font-size: 0.8em;
+              }
+            }
+          }
+        }
+        .export-button {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          width: fit-content;
+          right: 0;
+          background-color: #264653;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 0 0 20px 20px;
+          cursor: pointer;
+          p {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 3px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

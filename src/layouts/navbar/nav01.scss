@@ -12,6 +12,7 @@ $logo-size: 50px;
   background-color: $yellow;
   position: fixed;
   top: 0;
+  z-index: 9;
   .container-logo {
     display: flex;
     align-items: center;
@@ -35,7 +36,12 @@ $logo-size: 50px;
     width: 55%;
     a {
       text-decoration: none;
-      color: black;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2em;
+      &:hover {
+        color: $green;
+      }
     }
     ul {
       display: flex;

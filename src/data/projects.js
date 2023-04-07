@@ -1,5 +1,25 @@
 const ProjectsDB = [
   {
+    name: "PicDownloader",
+    type: "Chrome Extension",
+    description:
+      "PicDownloader is the ultimate Chrome extension for image enthusiasts. With its user-friendly design and intuitive interface, you can effortlessly browse and download high-quality images with just one click. Whether you're a designer, blogger, or someone who loves to collect images, PicDownloader simplifies the process of saving your favorite pictures to your device. Download PicDownloader today and experience the ultimate image downloading experience!",
+    tags: ["JavaScript", "CSS", "HTML"],
+    github: "",
+    link: "/picdownloader",
+    imageURl: "https://raw.githubusercontent.com/letuan317/letuan317/main/images/PicDownloader/Marquee%20promo%20tile.png",
+  },
+  {
+    name: "Amazon PriceNinja",
+    type: "Chrome Extension",
+    description:
+      "Amazon PriceNinja is a Chrome extension designed to help Amazon shoppers make informed purchasing decisions. With its advanced functionality, users can access comprehensive product information, including price history, weight conversions, and more, all presented in an easy-to-read format. This essential tool streamlines the shopping experience, enabling users to optimize their savings and make confident purchasing decisions.",
+    tags: ["JavaScript", "CSS", "HTML"],
+    github: "",
+    link: "/amazon-price-ninja",
+    imageURl: "https://raw.githubusercontent.com/letuan317/letuan317/main/images/AmazonPriceNinja/Marquee%20promo%20tile.png",
+  },
+  {
     name: "huyetnguyet.com",
     type: "Website",
     description:

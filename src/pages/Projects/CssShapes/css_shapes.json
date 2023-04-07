@@ -1,0 +1,401 @@
+[
+  {
+    "id": 0,
+    "name": "Triangle Up",
+    "html": "<div class=\"triangle-up\"></div>",
+    "css": ".triangle-up {\n  width: 0;\n  height: 0;\n  border-left: 25px solid transparent;\n  border-right: 25px solid transparent;\n  border-bottom: 50px solid #333;\n}",
+    "text": ".triangle-up {\r\n  width: 0;\r\n  height: 0;\r\n  border-left: 25px solid transparent;\r\n  border-right: 25px solid transparent;\r\n  border-bottom: 50px solid #333;\r\n}"
+  },
+  {
+    "id": 1,
+    "name": "Triangle Down",
+    "html": "<div class=\"triangle-down\"></div>",
+    "css": ".triangle-down {\n  width: 0;\n  height: 0;\n  border-left: 25px solid transparent;\n  border-right: 25px solid transparent;\n  border-top: 50px solid #333;\n}",
+    "text": ".triangle-down {\r\n  width: 0;\r\n  height: 0;\r\n  border-left: 25px solid transparent;\r\n  border-right: 25px solid transparent;\r\n  border-top: 50px solid #333;\r\n}"
+  },
+  {
+    "id": 2,
+    "name": "Triangle Left",
+    "html": "<div class=\"triangle-left\"></div>",
+    "css": ".triangle-left {\n  width: 0;\n  height: 0;\n  border-top: 25px solid transparent;\n  border-right: 50px solid #333;\n  border-bottom: 25px solid transparent;\n}",
+    "text": ".triangle-left {\r\n  width: 0;\r\n  height: 0;\r\n  border-top: 25px solid transparent;\r\n  border-right: 50px solid #333;\r\n  border-bottom: 25px solid transparent;\r\n}"
+  },
+  {
+    "id": 3,
+    "name": "Triangle Right",
+    "html": "<div class=\"triangle-right\"></div>",
+    "css": ".triangle-right {\n  width: 0;\n  height: 0;\n  border-top: 25px solid transparent;\n  border-left: 50px solid #333;\n  border-bottom: 25px solid transparent;\n}",
+    "text": ".triangle-right {\r\n  width: 0;\r\n  height: 0;\r\n  border-top: 25px solid transparent;\r\n  border-left: 50px solid #333;\r\n  border-bottom: 25px solid transparent;\r\n}"
+  },
+  {
+    "id": 4,
+    "name": "Arrow Up",
+    "html": "<div class=\"arrow-up\"></div>",
+    "css": ".arrow-up {\n  width: 33px;\n  height: 33px;\n  border: 2px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(225deg);\n}",
+    "text": ".arrow-up {\r\n  width: 33px;\r\n  height: 33px;\r\n  border: 2px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(225deg);\r\n}"
+  },
+  {
+    "id": 5,
+    "name": "Arrow Down",
+    "html": "<div class=\"arrow-down\"></div>",
+    "css": ".arrow-down {\n  width: 33px;\n  height: 33px;\n  border: 2px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(45deg);\n}",
+    "text": ".arrow-down {\r\n  width: 33px;\r\n  height: 33px;\r\n  border: 2px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(45deg);\r\n}"
+  },
+  {
+    "id": 6,
+    "name": "Arrow Left",
+    "html": "<div class=\"arrow-left\"></div>",
+    "css": ".arrow-left {\n  width: 33px;\n  height: 33px;\n  border: 2px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(135deg);\n}",
+    "text": ".arrow-left {\r\n  width: 33px;\r\n  height: 33px;\r\n  border: 2px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(135deg);\r\n}"
+  },
+  {
+    "id": 7,
+    "name": "Arrow Right",
+    "html": "<div class=\"arrow-right\"></div>",
+    "css": ".arrow-right {\n  width: 33px;\n  height: 33px;\n  border: 2px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(315deg);\n}",
+    "text": ".arrow-right {\r\n  width: 33px;\r\n  height: 33px;\r\n  border: 2px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(315deg);\r\n}"
+  },
+  {
+    "id": 8,
+    "name": "Thick Arrow Up",
+    "html": "<div class=\"thick-arrow-up\"></div>",
+    "css": ".thick-arrow-up {\n  width: 25px;\n  height: 25px;\n  border: 10px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(225deg);\n}",
+    "text": ".thick-arrow-up {\r\n  width: 25px;\r\n  height: 25px;\r\n  border: 10px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(225deg);\r\n}"
+  },
+  {
+    "id": 9,
+    "name": "Thick Arrow Down",
+    "html": "<div class=\"thick-arrow-down\"></div>",
+    "css": ".thick-arrow-down {\n  width: 25px;\n  height: 25px;\n  border: 10px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(45deg);\n}",
+    "text": ".thick-arrow-down {\r\n  width: 25px;\r\n  height: 25px;\r\n  border: 10px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(45deg);\r\n}"
+  },
+  {
+    "id": 10,
+    "name": "Thick Arrow Left",
+    "html": "<div class=\"thick-arrow-left\"></div>",
+    "css": ".thick-arrow-left {\n  width: 25px;\n  height: 25px;\n  border: 10px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(135deg);\n}",
+    "text": ".thick-arrow-left {\r\n  width: 25px;\r\n  height: 25px;\r\n  border: 10px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(135deg);\r\n}"
+  },
+  {
+    "id": 11,
+    "name": "Thick Arrow Right",
+    "html": "<div class=\"thick-arrow-right\"></div>",
+    "css": ".thick-arrow-right {\n  width: 25px;\n  height: 25px;\n  border: 10px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(315deg);\n}",
+    "text": ".thick-arrow-right {\r\n  width: 25px;\r\n  height: 25px;\r\n  border: 10px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(315deg);\r\n}"
+  },
+  {
+    "id": 12,
+    "name": "Bubble Top",
+    "html": "<div class=\"bubble-top\"></div>",
+    "css": ".bubble-top {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.66);\n  background: #333;\n  border-radius: 10px;\n}\n\n.bubble-top:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 50%;\n  width: 0;\n  height: 0;\n  border: calc(var(--size) * 0.13) solid transparent;\n  border-bottom-color: #333;\n  border-top: 0;\n  margin-left: calc(var(--size) * 0.13 * -1);\n  margin-top: calc(var(--size) * 0.13 * -1);\n}",
+    "text": ".bubble-top {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.66);\r\n  background: #333;\r\n  border-radius: 10px;\r\n}\r\n\r\n.bubble-top:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 0;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border: calc(var(--size) * 0.13) solid transparent;\r\n  border-bottom-color: #333;\r\n  border-top: 0;\r\n  margin-left: calc(var(--size) * 0.13 * -1);\r\n  margin-top: calc(var(--size) * 0.13 * -1);\r\n}"
+  },
+  {
+    "id": 13,
+    "name": "Bubble Bottom",
+    "html": "<div class=\"bubble-bottom\"></div>",
+    "css": ".bubble-bottom {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.66);\n  background: #333;\n  border-radius: 10px;\n}\n\n.bubble-bottom:after {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  width: 0;\n  height: 0;\n  border: calc(var(--size) * 0.13) solid transparent;\n  border-top-color: #333;\n  border-bottom: 0;\n  margin-left: calc(var(--size) * 0.13 * -1);\n  margin-bottom: calc(var(--size) * 0.13 * -1);\n}",
+    "text": ".bubble-bottom {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.66);\r\n  background: #333;\r\n  border-radius: 10px;\r\n}\r\n\r\n.bubble-bottom:after {\r\n  content: '';\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border: calc(var(--size) * 0.13) solid transparent;\r\n  border-top-color: #333;\r\n  border-bottom: 0;\r\n  margin-left: calc(var(--size) * 0.13 * -1);\r\n  margin-bottom: calc(var(--size) * 0.13 * -1);\r\n}"
+  },
+  {
+    "id": 14,
+    "name": "Bubble Left",
+    "html": "<div class=\"bubble-left\"></div>",
+    "css": ".bubble-left {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.66);\n  background: #333;\n  border-radius: 10px;\n}\n\n.bubble-left:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 0;\n  height: 0;\n  border: calc(var(--size) * 0.13) solid transparent;\n  border-right-color: #333;\n  border-left: 0;\n  margin-top: calc(var(--size) * 0.13 * -1);\n  margin-left: calc(var(--size) * 0.13 * -1);\n}",
+    "text": ".bubble-left {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.66);\r\n  background: #333;\r\n  border-radius: 10px;\r\n}\r\n\r\n.bubble-left:before {\r\n  content: '';\r\n  position: absolute;\r\n  left: 0;\r\n  top: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border: calc(var(--size) * 0.13) solid transparent;\r\n  border-right-color: #333;\r\n  border-left: 0;\r\n  margin-top: calc(var(--size) * 0.13 * -1);\r\n  margin-left: calc(var(--size) * 0.13 * -1);\r\n}"
+  },
+  {
+    "id": 15,
+    "name": "Bubble Right",
+    "html": "<div class=\"bubble-right\"></div>",
+    "css": ".bubble-right {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.66);\n  background: #333;\n  border-radius: 10px;\n}\n\n.bubble-right:after {\n  content: '';\n  position: absolute;\n  right: 0;\n  top: 50%;\n  width: 0;\n  height: 0;\n  border: calc(var(--size) * 0.13) solid transparent;\n  border-left-color: #333;\n  border-right: 0;\n  margin-top: calc(var(--size) * 0.13 * -1);\n  margin-right: calc(var(--size) * 0.13 * -1);\n}",
+    "text": ".bubble-right {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.66);\r\n  background: #333;\r\n  border-radius: 10px;\r\n}\r\n\r\n.bubble-right:after {\r\n  content: '';\r\n  position: absolute;\r\n  right: 0;\r\n  top: 50%;\r\n  width: 0;\r\n  height: 0;\r\n  border: calc(var(--size) * 0.13) solid transparent;\r\n  border-left-color: #333;\r\n  border-right: 0;\r\n  margin-top: calc(var(--size) * 0.13 * -1);\r\n  margin-right: calc(var(--size) * 0.13 * -1);\r\n}"
+  },
+  {
+    "id": 16,
+    "name": "5 Points Star",
+    "html": "<div class=\"five-points-star\"></div>",
+    "css": ".five-points-star {\n  /* Modify size here: */\n  --size: 50px;\n  --half-size: calc(var(--size) / 2);\n\n  position: relative;\n  display: block;\n  color: #333;\n  width: 0px;\n  height: 0px;\n  border-right: var(--half-size) solid transparent;\n  border-bottom: calc(var(--half-size) * 0.7) solid #333;\n  border-left: var(--half-size) solid transparent;\n  transform: rotate(35deg);\n}\n.five-points-star:before {\n  border-bottom: calc(var(--half-size) * 0.8) solid #333;\n  border-left: calc(var(--half-size) * 0.3) solid transparent;\n  border-right: calc(var(--half-size) * 0.3) solid transparent;\n  position: absolute;\n  height: 0;\n  width: 0;\n  top: calc(var(--half-size) * 0.45 * -1);\n  left: calc(var(--half-size) * 0.65 * -1);\n  display: block;\n  content: '';\n  transform: rotate(-35deg);\n}\n.five-points-star:after {\n  position: absolute;\n  display: block;\n  color: #333;\n  top: calc(var(--half-size) * 0.03);\n  left: calc(var(--half-size) * -1.05);\n  width: 0px;\n  height: 0px;\n  border-right: var(--half-size) solid transparent;\n  border-bottom: calc(var(--half-size) * 0.7) solid #333;\n  border-left: var(--half-size) solid transparent;\n  transform: rotate(-70deg);\n  content: '';\n}",
+    "text": ".five-points-star {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --half-size: calc(var(--size) / 2);\r\n\r\n  position: relative;\r\n  display: block;\r\n  color: #333;\r\n  width: 0px;\r\n  height: 0px;\r\n  border-right: var(--half-size) solid transparent;\r\n  border-bottom: calc(var(--half-size) * 0.7) solid #333;\r\n  border-left: var(--half-size) solid transparent;\r\n  transform: rotate(35deg);\r\n}\r\n.five-points-star:before {\r\n  border-bottom: calc(var(--half-size) * 0.8) solid #333;\r\n  border-left: calc(var(--half-size) * 0.3) solid transparent;\r\n  border-right: calc(var(--half-size) * 0.3) solid transparent;\r\n  position: absolute;\r\n  height: 0;\r\n  width: 0;\r\n  top: calc(var(--half-size) * 0.45 * -1);\r\n  left: calc(var(--half-size) * 0.65 * -1);\r\n  display: block;\r\n  content: '';\r\n  transform: rotate(-35deg);\r\n}\r\n.five-points-star:after {\r\n  position: absolute;\r\n  display: block;\r\n  color: #333;\r\n  top: calc(var(--half-size) * 0.03);\r\n  left: calc(var(--half-size) * -1.05);\r\n  width: 0px;\r\n  height: 0px;\r\n  border-right: var(--half-size) solid transparent;\r\n  border-bottom: calc(var(--half-size) * 0.7) solid #333;\r\n  border-left: var(--half-size) solid transparent;\r\n  transform: rotate(-70deg);\r\n  content: '';\r\n}"
+  },
+  {
+    "id": 17,
+    "name": "Heart",
+    "html": "<div class=\"heart\"></div>",
+    "css": ".heart {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.3);\n}\n\n.heart:before,\n.heart:after {\n  position: absolute;\n  content: \"\";\n  left: calc(var(--size) * 0.55);\n  top: 0;\n  width: calc(var(--size) * 0.55);\n  height: calc(var(--size) * 0.85);\n  background: #333;\n  border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.heart:after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}",
+    "text": ".heart {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.3);\r\n}\r\n\r\n.heart:before,\r\n.heart:after {\r\n  position: absolute;\r\n  content: \"\";\r\n  left: calc(var(--size) * 0.55);\r\n  top: 0;\r\n  width: calc(var(--size) * 0.55);\r\n  height: calc(var(--size) * 0.85);\r\n  background: #333;\r\n  border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;\r\n  transform: rotate(-45deg);\r\n  transform-origin: 0 100%;\r\n}\r\n\r\n.heart:after {\r\n  left: 0;\r\n  transform: rotate(45deg);\r\n  transform-origin: 100% 100%;\r\n}"
+  },
+  {
+    "id": 18,
+    "name": "Heart With Clip Path",
+    "html": "<div class=\"heart-with-clip-path\"></div>",
+    "css": ".heart-with-clip-path {\n  display: inline-block;\n  width: 50px;\n  aspect-ratio: 1;\n  border-image: radial-gradient(#333 69%,#0000 70%) 84.5% fill/100%;\n  clip-path: polygon(-41% 0,50% 91%, 141% 0);\n}",
+    "text": ".heart-with-clip-path {\r\n  display: inline-block;\r\n  width: 50px;\r\n  aspect-ratio: 1;\r\n  border-image: radial-gradient(#333 69%,#0000 70%) 84.5% fill/100%;\r\n  clip-path: polygon(-41% 0,50% 91%, 141% 0);\r\n}"
+  },
+  {
+    "id": 19,
+    "name": "Heart With Gradient",
+    "html": "<div class=\"heart-with-gradient\"></div>",
+    "css": ".heart-with-gradient {\n  width: 50px;\n  display: inline-block;\n  -webkit-mask: \n     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,\n     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,\n     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left,\n     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;\n  -webkit-mask-size: 50% 50%;\n  -webkit-mask-repeat: no-repeat;\n  mask: \n     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,\n     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,\n     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left,\n     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;\n  mask-size: 50% 50%;\n  mask-repeat: no-repeat;\n  background: linear-gradient(red,blue);\n}\n\n.heart-with-gradient::before {\n  content: '';\n  display: block;\n  padding-top: 100%;\n}",
+    "text": ".heart-with-gradient {\r\n  width: 50px;\r\n  display: inline-block;\r\n  -webkit-mask: \r\n     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,\r\n     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,\r\n     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left,\r\n     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;\r\n  -webkit-mask-size: 50% 50%;\r\n  -webkit-mask-repeat: no-repeat;\r\n  mask: \r\n     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,\r\n     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,\r\n     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left,\r\n     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;\r\n  mask-size: 50% 50%;\r\n  mask-repeat: no-repeat;\r\n  background: linear-gradient(red,blue);\r\n}\r\n\r\n.heart-with-gradient::before {\r\n  content: '';\r\n  display: block;\r\n  padding-top: 100%;\r\n}"
+  },
+  {
+    "id": 20,
+    "name": "12 Point Burst",
+    "html": "<div class=\"twelve-point-burst\"></div>",
+    "css": ".twelve-point-burst {\n  background: #333;\n  width: 40px;\n  height: 40px;\n  position: relative;\n  text-align: center;\n}\n.twelve-point-burst:before,\n.twelve-point-burst:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 40px;\n  width: 40px;\n  background: #333;\n}\n.twelve-point-burst:before {\n  transform: rotate(30deg);\n}\n.twelve-point-burst:after {\n  transform: rotate(60deg);\n}",
+    "text": ".twelve-point-burst {\r\n  background: #333;\r\n  width: 40px;\r\n  height: 40px;\r\n  position: relative;\r\n  text-align: center;\r\n}\r\n.twelve-point-burst:before,\r\n.twelve-point-burst:after {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 40px;\r\n  width: 40px;\r\n  background: #333;\r\n}\r\n.twelve-point-burst:before {\r\n  transform: rotate(30deg);\r\n}\r\n.twelve-point-burst:after {\r\n  transform: rotate(60deg);\r\n}"
+  },
+  {
+    "id": 21,
+    "name": "8 Point Burst",
+    "html": "<div class=\"eight-point-burst\"></div>",
+    "css": ".eight-point-burst {\n  background: #333;\n  width: 40px;\n  height: 40px;\n  position: relative;\n  text-align: center;\n  transform: rotate(20deg);\n}\n.eight-point-burst:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 40px;\n  width: 40px;\n  background: #333;\n  transform: rotate(135deg);\n}",
+    "text": ".eight-point-burst {\r\n  background: #333;\r\n  width: 40px;\r\n  height: 40px;\r\n  position: relative;\r\n  text-align: center;\r\n  transform: rotate(20deg);\r\n}\r\n.eight-point-burst:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 40px;\r\n  width: 40px;\r\n  background: #333;\r\n  transform: rotate(135deg);\r\n}"
+  },
+  {
+    "id": 22,
+    "name": "Diamond Square",
+    "html": "<div class=\"diamond-square\"></div>",
+    "css": ".diamond-square {\n  width: 0;\n  height: 0;\n  border: 25px solid transparent;\n  border-bottom-color: #333;\n  position: relative;\n  top: -25px;\n}\n.diamond-square:after {\n  content: '';\n  position: absolute;\n  left: -25px;\n  top: 25px;\n  width: 0;\n  height: 0;\n  border: 25px solid transparent;\n  border-top-color: #333;\n}",
+    "text": ".diamond-square {\r\n  width: 0;\r\n  height: 0;\r\n  border: 25px solid transparent;\r\n  border-bottom-color: #333;\r\n  position: relative;\r\n  top: -25px;\r\n}\r\n.diamond-square:after {\r\n  content: '';\r\n  position: absolute;\r\n  left: -25px;\r\n  top: 25px;\r\n  width: 0;\r\n  height: 0;\r\n  border: 25px solid transparent;\r\n  border-top-color: #333;\r\n}"
+  },
+  {
+    "id": 23,
+    "name": "Diamond",
+    "html": "<div class=\"diamond\"></div>",
+    "css": ".diamond {\n  /* Modify size here: */\n  --size: 50px;\n  --quarter-size: calc(var(--size) / 4);\n\n  border-style: solid;\n  border-color: transparent transparent #333 transparent;\n  border-width: 0 var(--quarter-size) var(--quarter-size) var(--quarter-size);\n  height: 0;\n  width: calc(var(--size) / 2);\n  box-sizing: content-box;\n  position: relative;\n  margin: 0 0 calc(var(--size) / 2) 0;\n}\n.diamond:after {\n  content: \"\";\n  position: absolute;\n  top: var(--quarter-size);\n  left: calc(var(--quarter-size) * -1);\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-color: #333 transparent transparent transparent;\n  border-width: calc(var(--size) * 0.7) calc(var(--size) / 2) 0 calc(var(--size) / 2);\n}",
+    "text": ".diamond {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --quarter-size: calc(var(--size) / 4);\r\n\r\n  border-style: solid;\r\n  border-color: transparent transparent #333 transparent;\r\n  border-width: 0 var(--quarter-size) var(--quarter-size) var(--quarter-size);\r\n  height: 0;\r\n  width: calc(var(--size) / 2);\r\n  box-sizing: content-box;\r\n  position: relative;\r\n  margin: 0 0 calc(var(--size) / 2) 0;\r\n}\r\n.diamond:after {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: var(--quarter-size);\r\n  left: calc(var(--quarter-size) * -1);\r\n  width: 0;\r\n  height: 0;\r\n  border-style: solid;\r\n  border-color: #333 transparent transparent transparent;\r\n  border-width: calc(var(--size) * 0.7) calc(var(--size) / 2) 0 calc(var(--size) / 2);\r\n}"
+  },
+  {
+    "id": 24,
+    "name": "Check Mark",
+    "html": "<div class=\"check-mark\"></div>",
+    "css": ".check-mark {\n  width: 19px;\n  height: 33px;\n  border: 2px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(45deg);\n}",
+    "text": ".check-mark {\r\n  width: 19px;\r\n  height: 33px;\r\n  border: 2px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(45deg);\r\n}"
+  },
+  {
+    "id": 25,
+    "name": "Thick Check Mark",
+    "html": "<div class=\"thick-check-mark\"></div>",
+    "css": ".thick-check-mark {\n  width: 19px;\n  height: 33px;\n  border: 10px solid #333;\n  border-left: 0;\n  border-top: 0;\n\n  transform: rotate(45deg);\n}",
+    "text": ".thick-check-mark {\r\n  width: 19px;\r\n  height: 33px;\r\n  border: 10px solid #333;\r\n  border-left: 0;\r\n  border-top: 0;\r\n\r\n  transform: rotate(45deg);\r\n}"
+  },
+  {
+    "id": 26,
+    "name": "Triangle With Borders",
+    "html": "<div class=\"triangle-with-borders\"></div>",
+    "css": ".triangle-with-borders {\n  position: relative;\n  width: 50px;\n  height: 38.6px;\n  border-left: 3px solid transparent;\n  border-bottom: 3px solid\n}\n\n.triangle-with-borders,\n.triangle-with-borders::before {\n  display: block;\n  box-sizing: border-box;\n  border-right: 3px solid transparent\n}\n\n.triangle-with-borders::before {\n  content: \"\";\n  position: absolute;\n  width: 45px;\n  height: 45px;\n  border-left: 3px solid;\n  border-top: 3px solid;\n  border-bottom: 3px solid transparent;\n  transform: rotate(45deg) skew(10deg,10deg);\n  left: -1px;\n  bottom: -25.5px;\n}",
+    "text": ".triangle-with-borders {\r\n  position: relative;\r\n  width: 50px;\r\n  height: 38.6px;\r\n  border-left: 3px solid transparent;\r\n  border-bottom: 3px solid\r\n}\r\n\r\n.triangle-with-borders,\r\n.triangle-with-borders::before {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  border-right: 3px solid transparent\r\n}\r\n\r\n.triangle-with-borders::before {\r\n  content: \"\";\r\n  position: absolute;\r\n  width: 45px;\r\n  height: 45px;\r\n  border-left: 3px solid;\r\n  border-top: 3px solid;\r\n  border-bottom: 3px solid transparent;\r\n  transform: rotate(45deg) skew(10deg,10deg);\r\n  left: -1px;\r\n  bottom: -25.5px;\r\n}"
+  },
+  {
+    "id": 27,
+    "name": "Cone",
+    "html": "<div class=\"cone\"></div>",
+    "css": ".cone {\n  width: 0;\n  height: 0;\n  border-left: 35px solid transparent;\n  border-right: 35px solid transparent;\n  border-top: 50px solid #333;\n  border-radius: 50%;\n}",
+    "text": ".cone {\r\n  width: 0;\r\n  height: 0;\r\n  border-left: 35px solid transparent;\r\n  border-right: 35px solid transparent;\r\n  border-top: 50px solid #333;\r\n  border-radius: 50%;\r\n}"
+  },
+  {
+    "id": 28,
+    "name": "Plus",
+    "html": "<div class=\"plus\"></div>",
+    "css": ".plus {\n  background: #333;\n  height: 50px;\n  position: relative;\n  width: 8px;\n}\n.plus:after {\n  background: #333;\n  content: \"\";\n  height: 8px;\n  left: -21px;\n  position: absolute;\n  top: 21px;\n  width: 50px;\n}",
+    "text": ".plus {\r\n  background: #333;\r\n  height: 50px;\r\n  position: relative;\r\n  width: 8px;\r\n}\r\n.plus:after {\r\n  background: #333;\r\n  content: \"\";\r\n  height: 8px;\r\n  left: -21px;\r\n  position: absolute;\r\n  top: 21px;\r\n  width: 50px;\r\n}"
+  },
+  {
+    "id": 29,
+    "name": "Base",
+    "html": "<div class=\"base\"></div>",
+    "css": ".base {\n  background: #333;\n  display: inline-block;\n  height: 27.5px;\n  position: relative;\n  width: 50px;\n}\n.base:before {\n  border-bottom: 17.5px solid #333;\n  border-left: 25px solid transparent;\n  border-right: 25px solid transparent;\n  content: \"\";\n  height: 0;\n  left: 0;\n  position: absolute;\n  top: -17.5px;\n  width: 0;\n}",
+    "text": ".base {\r\n  background: #333;\r\n  display: inline-block;\r\n  height: 27.5px;\r\n  position: relative;\r\n  width: 50px;\r\n}\r\n.base:before {\r\n  border-bottom: 17.5px solid #333;\r\n  border-left: 25px solid transparent;\r\n  border-right: 25px solid transparent;\r\n  content: \"\";\r\n  height: 0;\r\n  left: 0;\r\n  position: absolute;\r\n  top: -17.5px;\r\n  width: 0;\r\n}"
+  },
+  {
+    "id": 30,
+    "name": "Yin Yang",
+    "html": "<div class=\"yin-yang\"></div>",
+    "css": ".yin-yang {\n  width: 50px;\n  box-sizing: content-box;\n  height: 25px;\n  background: #fff;\n  border-color: #333;\n  border-style: solid;\n  border-width: 2px 2px 26px 2px;\n  border-radius: 100%;\n  position: relative;\n}\n.yin-yang:before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 0;\n  background: #fff;\n  border: 9.4px solid #333;\n  border-radius: 100%;\n  width: 6.25px;\n  height: 6.25px;\n  box-sizing: content-box;\n}\n.yin-yang:after {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  background: #333;\n  border: 9.4px solid #fff;\n  border-radius: 100%;\n  width: 6.25px;\n  height: 6.25px;\n  box-sizing: content-box;\n}",
+    "text": ".yin-yang {\r\n  width: 50px;\r\n  box-sizing: content-box;\r\n  height: 25px;\r\n  background: #fff;\r\n  border-color: #333;\r\n  border-style: solid;\r\n  border-width: 2px 2px 26px 2px;\r\n  border-radius: 100%;\r\n  position: relative;\r\n}\r\n.yin-yang:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 0;\r\n  background: #fff;\r\n  border: 9.4px solid #333;\r\n  border-radius: 100%;\r\n  width: 6.25px;\r\n  height: 6.25px;\r\n  box-sizing: content-box;\r\n}\r\n.yin-yang:after {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  background: #333;\r\n  border: 9.4px solid #fff;\r\n  border-radius: 100%;\r\n  width: 6.25px;\r\n  height: 6.25px;\r\n  box-sizing: content-box;\r\n}"
+  },
+  {
+    "id": 31,
+    "name": "Octagon",
+    "html": "<div class=\"octagon\"></div>",
+    "css": ".octagon {\n  width: 50px;\n  height: 50px;\n  background: #333;\n  position: relative;\n}\n.octagon:before {\n  content: \"\";\n  width: 20px;\n  height: 0;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-bottom: 15px solid #333;\n  border-left: 15px solid #fff;\n  border-right: 15px solid #fff;\n}\n.octagon:after {\n  content: \"\";\n  width: 20px;\n  height: 0;\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  border-top: 15px solid #333;\n  border-left: 15px solid #fff;\n  border-right: 15px solid #fff;\n}",
+    "text": ".octagon {\r\n  width: 50px;\r\n  height: 50px;\r\n  background: #333;\r\n  position: relative;\r\n}\r\n.octagon:before {\r\n  content: \"\";\r\n  width: 20px;\r\n  height: 0;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  border-bottom: 15px solid #333;\r\n  border-left: 15px solid #fff;\r\n  border-right: 15px solid #fff;\r\n}\r\n.octagon:after {\r\n  content: \"\";\r\n  width: 20px;\r\n  height: 0;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  border-top: 15px solid #333;\r\n  border-left: 15px solid #fff;\r\n  border-right: 15px solid #fff;\r\n}"
+  },
+  {
+    "id": 32,
+    "name": "Oval",
+    "html": "<div class=\"oval\"></div>",
+    "css": ".oval {\n  width: 50px;\n  height: 38px;\n  border-radius: 50%;\n  background: #333;\n}",
+    "text": ".oval {\r\n  width: 50px;\r\n  height: 38px;\r\n  border-radius: 50%;\r\n  background: #333;\r\n}"
+  },
+  {
+    "id": 33,
+    "name": "Pac Man",
+    "html": "<div class=\"pac-man\"></div>",
+    "css": ".pac-man {\n  width: 0px;\n  height: 0px;\n  border-right: 29px solid transparent;\n  border-top: 29px solid #333;\n  border-left: 29px solid #333;\n  border-bottom: 29px solid #333;\n  border-top-left-radius: 29px;\n  border-top-right-radius: 29px;\n  border-bottom-left-radius: 29px;\n  border-bottom-right-radius: 29px;\n}",
+    "text": ".pac-man {\r\n  width: 0px;\r\n  height: 0px;\r\n  border-right: 29px solid transparent;\r\n  border-top: 29px solid #333;\r\n  border-left: 29px solid #333;\r\n  border-bottom: 29px solid #333;\r\n  border-top-left-radius: 29px;\r\n  border-top-right-radius: 29px;\r\n  border-bottom-left-radius: 29px;\r\n  border-bottom-right-radius: 29px;\r\n}"
+  },
+  {
+    "id": 34,
+    "name": "Space Invader",
+    "html": "<div class=\"space-invader\"></div>",
+    "css": ".space-invader {\n  /* Modify size here: */\n  --block-size: 5px;\n\n  box-shadow: 0 0 0 var(--block-size) #333,\n  0 var(--block-size) 0 var(--block-size) #333,\n  calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,\n  calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,\n  calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 #333,\n  calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 #333,\n  calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 #333,\n  calc(var(--block-size) * 2) calc(var(--block-size) * -2) 0 0 #333,\n  calc(var(--block-size) * -3) calc(var(--block-size) * -1) 0 0 #333,\n  calc(var(--block-size) * -2) calc(var(--block-size) * -1) 0 0 #333,\n  calc(var(--block-size) * 2) calc(var(--block-size) * -1) 0 0 #333,\n  calc(var(--block-size) * 3) calc(var(--block-size) * -1) 0 0 #333,\n  calc(var(--block-size) * -4) 0 0 0 #333,\n  calc(var(--block-size) * -3) 0 0 0 #333,\n  calc(var(--block-size) * 3) 0 0 0 #333,\n  calc(var(--block-size) * 4) 0 0 0 #333,\n  calc(var(--block-size) * -5) var(--block-size) 0 0 #333,\n  calc(var(--block-size) * -4) var(--block-size) 0 0 #333,\n  calc(var(--block-size) * 4) var(--block-size) 0 0 #333,\n  calc(var(--block-size) * 5) var(--block-size) 0 0 #333,\n  calc(var(--block-size) * -5) calc(var(--block-size) * 2) 0 0 #333,\n  calc(var(--block-size) * 5) calc(var(--block-size) * 2) 0 0 #333,\n  calc(var(--block-size) * -5) calc(var(--block-size) * 3) 0 0 #333,\n  calc(var(--block-size) * -3) calc(var(--block-size) * 3) 0 0 #333,\n  calc(var(--block-size) * 3) calc(var(--block-size) * 3) 0 0 #333,\n  calc(var(--block-size) * 5) calc(var(--block-size) * 3) 0 0 #333,\n  calc(var(--block-size) * -2) calc(var(--block-size) * 4) 0 0 #333,\n  calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 #333,\n  var(--block-size) calc(var(--block-size) * 4) 0 0 #333,\n  calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 #333;\n  background: #333;\n  width: var(--block-size);\n  height: var(--block-size);\n  overflow: hidden;\n}",
+    "text": ".space-invader {\r\n  /* Modify size here: */\r\n  --block-size: 5px;\r\n\r\n  box-shadow: 0 0 0 var(--block-size) #333,\r\n  0 var(--block-size) 0 var(--block-size) #333,\r\n  calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,\r\n  calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,\r\n  calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 #333,\r\n  calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 #333,\r\n  calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 #333,\r\n  calc(var(--block-size) * 2) calc(var(--block-size) * -2) 0 0 #333,\r\n  calc(var(--block-size) * -3) calc(var(--block-size) * -1) 0 0 #333,\r\n  calc(var(--block-size) * -2) calc(var(--block-size) * -1) 0 0 #333,\r\n  calc(var(--block-size) * 2) calc(var(--block-size) * -1) 0 0 #333,\r\n  calc(var(--block-size) * 3) calc(var(--block-size) * -1) 0 0 #333,\r\n  calc(var(--block-size) * -4) 0 0 0 #333,\r\n  calc(var(--block-size) * -3) 0 0 0 #333,\r\n  calc(var(--block-size) * 3) 0 0 0 #333,\r\n  calc(var(--block-size) * 4) 0 0 0 #333,\r\n  calc(var(--block-size) * -5) var(--block-size) 0 0 #333,\r\n  calc(var(--block-size) * -4) var(--block-size) 0 0 #333,\r\n  calc(var(--block-size) * 4) var(--block-size) 0 0 #333,\r\n  calc(var(--block-size) * 5) var(--block-size) 0 0 #333,\r\n  calc(var(--block-size) * -5) calc(var(--block-size) * 2) 0 0 #333,\r\n  calc(var(--block-size) * 5) calc(var(--block-size) * 2) 0 0 #333,\r\n  calc(var(--block-size) * -5) calc(var(--block-size) * 3) 0 0 #333,\r\n  calc(var(--block-size) * -3) calc(var(--block-size) * 3) 0 0 #333,\r\n  calc(var(--block-size) * 3) calc(var(--block-size) * 3) 0 0 #333,\r\n  calc(var(--block-size) * 5) calc(var(--block-size) * 3) 0 0 #333,\r\n  calc(var(--block-size) * -2) calc(var(--block-size) * 4) 0 0 #333,\r\n  calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 #333,\r\n  var(--block-size) calc(var(--block-size) * 4) 0 0 #333,\r\n  calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 #333;\r\n  background: #333;\r\n  width: var(--block-size);\r\n  height: var(--block-size);\r\n  overflow: hidden;\r\n}"
+  },
+  {
+    "id": 35,
+    "name": "Moon",
+    "html": "<div class=\"moon\"></div>",
+    "css": ".moon {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  box-shadow: 9px 9px 0 0 #333;\n  margin-left: -25px;\n  margin-top: -25px;\n}",
+    "text": ".moon {\r\n  width: 50px;\r\n  height: 50px;\r\n  border-radius: 50%;\r\n  box-shadow: 9px 9px 0 0 #333;\r\n  margin-left: -25px;\r\n  margin-top: -25px;\r\n}"
+  },
+  {
+    "id": 36,
+    "name": "Flag",
+    "html": "<div class=\"flag\"></div>",
+    "css": ".flag {\n  width: 50px;\n  height: 50px;\n  box-sizing: content-box;\n  padding-top: 15px;\n  position: relative;\n  background: #333;\n}\n.flag:after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 0;\n  height: 0;\n  border-bottom: 13px solid #fff;\n  border-left: 25px solid transparent;\n  border-right: 25px solid transparent;\n}",
+    "text": ".flag {\r\n  width: 50px;\r\n  height: 50px;\r\n  box-sizing: content-box;\r\n  padding-top: 15px;\r\n  position: relative;\r\n  background: #333;\r\n}\r\n.flag:after {\r\n  content: \"\";\r\n  position: absolute;\r\n  left: 0;\r\n  bottom: 0;\r\n  width: 0;\r\n  height: 0;\r\n  border-bottom: 13px solid #fff;\r\n  border-left: 25px solid transparent;\r\n  border-right: 25px solid transparent;\r\n}"
+  },
+  {
+    "id": 37,
+    "name": "Triangle Top Left",
+    "html": "<div class=\"triangle-top-left\"></div>",
+    "css": ".triangle-top-left {\n  width: 0;\n  height: 0;\n  border-top: 50px solid #333;\n  border-right: 50px solid transparent;\n}",
+    "text": ".triangle-top-left {\r\n  width: 0;\r\n  height: 0;\r\n  border-top: 50px solid #333;\r\n  border-right: 50px solid transparent;\r\n}"
+  },
+  {
+    "id": 38,
+    "name": "Triangle Top Right",
+    "html": "<div class=\"triangle-top-right\"></div>",
+    "css": ".triangle-top-right {\n  width: 0;\n  height: 0;\n  border-top: 50px solid #333;\n  border-left: 50px solid transparent;\n}",
+    "text": ".triangle-top-right {\r\n  width: 0;\r\n  height: 0;\r\n  border-top: 50px solid #333;\r\n  border-left: 50px solid transparent;\r\n}"
+  },
+  {
+    "id": 39,
+    "name": "Triangle Bottom Left",
+    "html": "<div class=\"triangle-bottom-left\"></div>",
+    "css": ".triangle-bottom-left {\n  width: 0;\n  height: 0;\n  border-bottom: 50px solid #333;\n  border-right: 50px solid transparent;\n}",
+    "text": ".triangle-bottom-left {\r\n  width: 0;\r\n  height: 0;\r\n  border-bottom: 50px solid #333;\r\n  border-right: 50px solid transparent;\r\n}"
+  },
+  {
+    "id": 40,
+    "name": "Triangle Bottom Right",
+    "html": "<div class=\"triangle-bottom-right\"></div>",
+    "css": ".triangle-bottom-right {\n  width: 0;\n  height: 0;\n  border-bottom: 50px solid #333;\n  border-left: 50px solid transparent;\n}",
+    "text": ".triangle-bottom-right {\r\n  width: 0;\r\n  height: 0;\r\n  border-bottom: 50px solid #333;\r\n  border-left: 50px solid transparent;\r\n}"
+  },
+  {
+    "id": 41,
+    "name": "Trapezoid",
+    "html": "<div class=\"trapezoid\"></div>",
+    "css": ".trapezoid {\n  border-bottom: 40px solid #333;\n  border-left: 20px solid transparent;\n  border-right: 20px solid transparent;\n  height: 0;\n  width: 40px;\n}",
+    "text": ".trapezoid {\r\n  border-bottom: 40px solid #333;\r\n  border-left: 20px solid transparent;\r\n  border-right: 20px solid transparent;\r\n  height: 0;\r\n  width: 40px;\r\n}"
+  },
+  {
+    "id": 42,
+    "name": "Parallelogram",
+    "html": "<div class=\"parallelogram\"></div>",
+    "css": ".parallelogram {\n  width: 50px;\n  height: 50px;\n  transform: skew(20deg);\n  background: #333;\n}",
+    "text": ".parallelogram {\r\n  width: 50px;\r\n  height: 50px;\r\n  transform: skew(20deg);\r\n  background: #333;\r\n}"
+  },
+  {
+    "id": 43,
+    "name": "6 Points Star",
+    "html": "<div class=\"six-points-star\"></div>",
+    "css": ".six-points-star {\n  /* Modify size here: */\n  --size: 25px;\n\n  width: 0;\n  height: 0;\n  border-left: var(--size) solid transparent;\n  border-right: var(--size) solid transparent;\n  border-bottom: calc(var(--size) * 2) solid #333;\n  position: relative;\n}\n.six-points-star:after {\n  width: 0;\n  height: 0;\n  border-left: var(--size) solid transparent;\n  border-right: var(--size) solid transparent;\n  border-top: calc(var(--size) * 2) solid #333;\n  position: absolute;\n  content: \"\";\n  top: calc(var(--size) / 2);\n  left: calc(var(--size) * -1);\n}",
+    "text": ".six-points-star {\r\n  /* Modify size here: */\r\n  --size: 25px;\r\n\r\n  width: 0;\r\n  height: 0;\r\n  border-left: var(--size) solid transparent;\r\n  border-right: var(--size) solid transparent;\r\n  border-bottom: calc(var(--size) * 2) solid #333;\r\n  position: relative;\r\n}\r\n.six-points-star:after {\r\n  width: 0;\r\n  height: 0;\r\n  border-left: var(--size) solid transparent;\r\n  border-right: var(--size) solid transparent;\r\n  border-top: calc(var(--size) * 2) solid #333;\r\n  position: absolute;\r\n  content: \"\";\r\n  top: calc(var(--size) / 2);\r\n  left: calc(var(--size) * -1);\r\n}"
+  },
+  {
+    "id": 44,
+    "name": "Hexagon",
+    "html": "<div class=\"hexagon\"></div>",
+    "css": ".hexagon {\n  /* Modify size here: */\n  --size: 50px;\n\n  width: var(--size);\n  height: calc(var(--size) * 0.57735);\n  background: #333;\n  position: relative;\n}\n.hexagon::before {\n  content: \"\";\n  position: absolute;\n  top: calc(var(--size) * -0.288675);\n  left: 0;\n  width: 0;\n  height: 0;\n  border-left: calc(var(--size) / 2) solid transparent;\n  border-right: calc(var(--size) / 2) solid transparent;\n  border-bottom: calc(var(--size) * 0.288675) solid #333;\n}\n.hexagon::after {\n  content: \"\";\n  position: absolute;\n  bottom: calc(var(--size) * -0.288675);\n  left: 0;\n  width: 0;\n  height: 0;\n  border-left: calc(var(--size) / 2) solid transparent;\n  border-right: calc(var(--size) / 2) solid transparent;\n  border-top: calc(var(--size) * 0.288675) solid #333;\n}",
+    "text": ".hexagon {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.57735);\r\n  background: #333;\r\n  position: relative;\r\n}\r\n.hexagon::before {\r\n  content: \"\";\r\n  position: absolute;\r\n  top: calc(var(--size) * -0.288675);\r\n  left: 0;\r\n  width: 0;\r\n  height: 0;\r\n  border-left: calc(var(--size) / 2) solid transparent;\r\n  border-right: calc(var(--size) / 2) solid transparent;\r\n  border-bottom: calc(var(--size) * 0.288675) solid #333;\r\n}\r\n.hexagon::after {\r\n  content: \"\";\r\n  position: absolute;\r\n  bottom: calc(var(--size) * -0.288675);\r\n  left: 0;\r\n  width: 0;\r\n  height: 0;\r\n  border-left: calc(var(--size) / 2) solid transparent;\r\n  border-right: calc(var(--size) / 2) solid transparent;\r\n  border-top: calc(var(--size) * 0.288675) solid #333;\r\n}"
+  },
+  {
+    "id": 45,
+    "name": "Pentagon",
+    "html": "<div class=\"pentagon\"></div>",
+    "css": ".pentagon {\n  --size: 30px;\n\n  position: relative;\n  width: var(--size);\n  box-sizing: content-box;\n  border-width: calc(var(--size) * 0.925) calc(var(--size) * 0.333) 0;\n  border-style: solid;\n  border-color: #333 transparent;\n}\n.pentagon:before {\n  content: \"\";\n  position: absolute;\n  height: 0;\n  width: 0;\n  top: calc(var(--size) * -1.574);\n  left: calc(var(--size) * -0.333);\n  border-width: 0 calc(var(--size) * 0.833) calc(var(--size) * 0.648);\n  border-style: solid;\n  border-color: transparent transparent #333;\n}",
+    "text": ".pentagon {\r\n  --size: 30px;\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  box-sizing: content-box;\r\n  border-width: calc(var(--size) * 0.925) calc(var(--size) * 0.333) 0;\r\n  border-style: solid;\r\n  border-color: #333 transparent;\r\n}\r\n.pentagon:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  height: 0;\r\n  width: 0;\r\n  top: calc(var(--size) * -1.574);\r\n  left: calc(var(--size) * -0.333);\r\n  border-width: 0 calc(var(--size) * 0.833) calc(var(--size) * 0.648);\r\n  border-style: solid;\r\n  border-color: transparent transparent #333;\r\n}"
+  },
+  {
+    "id": 46,
+    "name": "Infinity",
+    "html": "<div class=\"infinity\"></div>",
+    "css": ".infinity {\n  /* Modify size here: */\n  --size: 50px;\n  --thickness: calc(var(--size) * 0.1);\n\n  position: relative;\n  width: var(--size);\n  height: calc(var(--size) * 0.47);\n  box-sizing: content-box;\n}\n.infinity:before,\n.infinity:after {\n  content: \"\";\n  box-sizing: content-box;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: calc(var(--size) * 0.28);\n  height: calc(var(--size) * 0.28);\n  border: var(--thickness) solid #333;\n  border-radius: 50px 50px 0 50px;\n  transform: rotate(-45deg);\n}\n.infinity:after {\n  left: calc(44% + var(--thickness));\n  right: 0;\n  border-radius: 50px 50px 50px 0;\n  transform: rotate(45deg);\n}",
+    "text": ".infinity {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --thickness: calc(var(--size) * 0.1);\r\n\r\n  position: relative;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 0.47);\r\n  box-sizing: content-box;\r\n}\r\n.infinity:before,\r\n.infinity:after {\r\n  content: \"\";\r\n  box-sizing: content-box;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: calc(var(--size) * 0.28);\r\n  height: calc(var(--size) * 0.28);\r\n  border: var(--thickness) solid #333;\r\n  border-radius: 50px 50px 0 50px;\r\n  transform: rotate(-45deg);\r\n}\r\n.infinity:after {\r\n  left: calc(44% + var(--thickness));\r\n  right: 0;\r\n  border-radius: 50px 50px 50px 0;\r\n  transform: rotate(45deg);\r\n}"
+  },
+  {
+    "id": 47,
+    "name": "Egg",
+    "html": "<div class=\"egg\"></div>",
+    "css": ".egg {\n  /* Modify size here: */\n  --size: 50px;\n\n  display: block;\n  width: var(--size);\n  height: calc(var(--size) * 1.44);\n  background-color: #333;\n  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;\n}",
+    "text": ".egg {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  display: block;\r\n  width: var(--size);\r\n  height: calc(var(--size) * 1.44);\r\n  background-color: #333;\r\n  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;\r\n}"
+  },
+  {
+    "id": 48,
+    "name": "Badge Ribbon",
+    "html": "<div class=\"badge-ribbon\"></div>",
+    "css": ".badge-ribbon {\n  /* Modify size here: */\n  --size: 50px;\n\n  position: relative;\n  background: #333;\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50px;\n}\n\n.badge-ribbon:before,\n.badge-ribbon:after {\n  content: '';\n  position: absolute;\n  border-bottom: calc(var(--size) * 0.7) solid #333;\n  border-left: calc(var(--size) * 0.4) solid transparent;\n  border-right: calc(var(--size) * 0.4) solid transparent;\n  top: calc(var(--size) * 0.7);\n  left: calc(var(--size) * -0.1);\n  transform: rotate(-140deg);\n}\n\n.badge-ribbon:after {\n  left: auto;\n  right: calc(var(--size) * -0.1);\n  transform: rotate(140deg);\n}",
+    "text": ".badge-ribbon {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n\r\n  position: relative;\r\n  background: #333;\r\n  height: var(--size);\r\n  width: var(--size);\r\n  border-radius: 50px;\r\n}\r\n\r\n.badge-ribbon:before,\r\n.badge-ribbon:after {\r\n  content: '';\r\n  position: absolute;\r\n  border-bottom: calc(var(--size) * 0.7) solid #333;\r\n  border-left: calc(var(--size) * 0.4) solid transparent;\r\n  border-right: calc(var(--size) * 0.4) solid transparent;\r\n  top: calc(var(--size) * 0.7);\r\n  left: calc(var(--size) * -0.1);\r\n  transform: rotate(-140deg);\r\n}\r\n\r\n.badge-ribbon:after {\r\n  left: auto;\r\n  right: calc(var(--size) * -0.1);\r\n  transform: rotate(140deg);\r\n}"
+  },
+  {
+    "id": 49,
+    "name": "Tv Screen",
+    "html": "<div class=\"tv-screen\"></div>",
+    "css": ".tv-screen {\n  position: relative;\n  width: 50px;\n  height: 40px;\n  background: #333;\n  border-radius: 50% / 10%;\n  color: white;\n  text-align: center;\n}\n\n.tv-screen:before {\n  content: '';\n  position: absolute;\n  top: 10%;\n  bottom: 10%;\n  right: -5%;\n  left: -5%;\n  background: inherit;\n  border-radius: 5% / 50%;\n}",
+    "text": ".tv-screen {\r\n  position: relative;\r\n  width: 50px;\r\n  height: 40px;\r\n  background: #333;\r\n  border-radius: 50% / 10%;\r\n  color: white;\r\n  text-align: center;\r\n}\r\n\r\n.tv-screen:before {\r\n  content: '';\r\n  position: absolute;\r\n  top: 10%;\r\n  bottom: 10%;\r\n  right: -5%;\r\n  left: -5%;\r\n  background: inherit;\r\n  border-radius: 5% / 50%;\r\n}"
+  },
+  {
+    "id": 50,
+    "name": "Cylinder",
+    "html": "<div class=\"cylinder\"></div>",
+    "css": ".cylinder {\n  width: 50px;\n  height: 70px;\n  /* border-radius: horziontal values / vertical values */\n  border-radius: 50px 50px / 20px 20px;\n  background: #333;\n}",
+    "text": ".cylinder {\r\n  width: 50px;\r\n  height: 70px;\r\n  /* border-radius: horziontal values / vertical values */\r\n  border-radius: 50px 50px / 20px 20px;\r\n  background: #333;\r\n}"
+  },
+  {
+    "id": 51,
+    "name": "Price Tag",
+    "html": "<div class=\"price-tag\"></div>",
+    "css": ".price-tag {\n  display: inline-block;\n  \n  width: auto;\n  height: 38px;\n  \n  background-color: #333;\n  -webkit-border-radius: 3px 4px 4px 3px;\n  -moz-border-radius: 3px 4px 4px 3px;\n  border-radius: 3px 4px 4px 3px;\n  \n  border-left: 1px solid #333;\n\n  /* This makes room for the triangle */\n  margin-left: 19px;\n  \n  position: relative;\n  \n  color: white;\n  line-height: 38px;\n\n  padding: 0 10px 0 10px;\n}\n\n/* Makes the triangle */\n.price-tag:before {\n  content: \"\";\n  position: absolute;\n  display: block;\n  left: -19px;\n  width: 0;\n  height: 0;\n  border-top: 19px solid transparent;\n  border-bottom: 19px solid transparent;\n  border-right: 19px solid #333;\n}\n\n/* Makes the circle */\n.price-tag:after {\n  content: \"\";\n  background-color: white;\n  border-radius: 50%;\n  width: 4px;\n  height: 4px;\n  display: block;\n  position: absolute;\n  left: -9px;\n  top: 17px;\n}",
+    "text": ".price-tag {\r\n  display: inline-block;\r\n  \r\n  width: auto;\r\n  height: 38px;\r\n  \r\n  background-color: #333;\r\n  -webkit-border-radius: 3px 4px 4px 3px;\r\n  -moz-border-radius: 3px 4px 4px 3px;\r\n  border-radius: 3px 4px 4px 3px;\r\n  \r\n  border-left: 1px solid #333;\r\n\r\n  /* This makes room for the triangle */\r\n  margin-left: 19px;\r\n  \r\n  position: relative;\r\n  \r\n  color: white;\r\n  line-height: 38px;\r\n\r\n  padding: 0 10px 0 10px;\r\n}\r\n\r\n/* Makes the triangle */\r\n.price-tag:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  display: block;\r\n  left: -19px;\r\n  width: 0;\r\n  height: 0;\r\n  border-top: 19px solid transparent;\r\n  border-bottom: 19px solid transparent;\r\n  border-right: 19px solid #333;\r\n}\r\n\r\n/* Makes the circle */\r\n.price-tag:after {\r\n  content: \"\";\r\n  background-color: white;\r\n  border-radius: 50%;\r\n  width: 4px;\r\n  height: 4px;\r\n  display: block;\r\n  position: absolute;\r\n  left: -9px;\r\n  top: 17px;\r\n}"
+  },
+  {
+    "id": 52,
+    "name": "Tooltip Top",
+    "html": "<div class=\"tooltip-top\"></div>",
+    "css": ".tooltip-top {\n  /* Modify size here: */\n  --size: 50px;\n  --padding: 10px;\n\n  position: relative;\n  width: calc(var(--size) - var(--padding));\n  height: calc(var(--size) / 2);\n  background: #333;\n  padding: var(--padding);\n}\n\n.tooltip-top:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(45deg);\n  background: #333;\n  height: 16px;\n  width: 16px;\n}",
+    "text": ".tooltip-top {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --padding: 10px;\r\n\r\n  position: relative;\r\n  width: calc(var(--size) - var(--padding));\r\n  height: calc(var(--size) / 2);\r\n  background: #333;\r\n  padding: var(--padding);\r\n}\r\n\r\n.tooltip-top:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 100%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%) rotate(45deg);\r\n  background: #333;\r\n  height: 16px;\r\n  width: 16px;\r\n}"
+  },
+  {
+    "id": 53,
+    "name": "Tooltip Bottom",
+    "html": "<div class=\"tooltip-bottom\"></div>",
+    "css": ".tooltip-bottom {\n  /* Modify size here: */\n  --size: 50px;\n  --padding: 10px;\n\n  position: relative;\n  width: calc(var(--size) - var(--padding));\n  height: calc(var(--size) / 2);\n  background: #333;\n  padding: var(--padding);\n}\n\n.tooltip-bottom:after {\n  content: '';\n  position: absolute;\n  top: 0%;\n  left: 50%;\n  transform: translate(-50%, -50%) rotate(45deg);\n  background: #333;\n  height: 16px;\n  width: 16px;\n}",
+    "text": ".tooltip-bottom {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --padding: 10px;\r\n\r\n  position: relative;\r\n  width: calc(var(--size) - var(--padding));\r\n  height: calc(var(--size) / 2);\r\n  background: #333;\r\n  padding: var(--padding);\r\n}\r\n\r\n.tooltip-bottom:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 0%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%) rotate(45deg);\r\n  background: #333;\r\n  height: 16px;\r\n  width: 16px;\r\n}"
+  },
+  {
+    "id": 54,
+    "name": "Tooltip Left",
+    "html": "<div class=\"tooltip-left\"></div>",
+    "css": ".tooltip-left {\n  /* Modify size here: */\n  --size: 50px;\n  --padding: 10px;\n\n  position: relative;\n  width: calc(var(--size) - var(--padding));\n  height: calc(var(--size) / 2);\n  background: #333;\n  padding: var(--padding);\n}\n\n.tooltip-left:after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 0%;\n  transform: translate(-50%, -50%) rotate(45deg);\n  background: #333;\n  height: 16px;\n  width: 16px;\n}",
+    "text": ".tooltip-left {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --padding: 10px;\r\n\r\n  position: relative;\r\n  width: calc(var(--size) - var(--padding));\r\n  height: calc(var(--size) / 2);\r\n  background: #333;\r\n  padding: var(--padding);\r\n}\r\n\r\n.tooltip-left:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 0%;\r\n  transform: translate(-50%, -50%) rotate(45deg);\r\n  background: #333;\r\n  height: 16px;\r\n  width: 16px;\r\n}"
+  },
+  {
+    "id": 55,
+    "name": "Tooltip Right",
+    "html": "<div class=\"tooltip-right\"></div>",
+    "css": ".tooltip-right {\n  /* Modify size here: */\n  --size: 50px;\n  --padding: 10px;\n\n  position: relative;\n  width: calc(var(--size) - var(--padding));\n  height: calc(var(--size) / 2);\n  background: #333;\n  padding: var(--padding);\n}\n\n.tooltip-right:after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 100%;\n  transform: translate(-50%, -50%) rotate(45deg);\n  background: #333;\n  height: 16px;\n  width: 16px;\n}",
+    "text": ".tooltip-right {\r\n  /* Modify size here: */\r\n  --size: 50px;\r\n  --padding: 10px;\r\n\r\n  position: relative;\r\n  width: calc(var(--size) - var(--padding));\r\n  height: calc(var(--size) / 2);\r\n  background: #333;\r\n  padding: var(--padding);\r\n}\r\n\r\n.tooltip-right:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 100%;\r\n  transform: translate(-50%, -50%) rotate(45deg);\r\n  background: #333;\r\n  height: 16px;\r\n  width: 16px;\r\n}"
+  },
+  {
+    "id": 56,
+    "name": "Triangle With Partial Borders",
+    "html": "<div class=\"triangle-with-partial-borders\"></div>",
+    "css": ".triangle-with-partial-borders {\n  border: 1px solid #333;\n  padding: 1.5em;\n  position: relative;\n  width: 50px;\n}\n.triangle-with-partial-borders:before,\n.triangle-with-partial-borders:after {\n  content: \"\";\n  display: block;\n  height: 0; \n  left: 50%;\n  position: absolute;\n  width: 0; \n}\n.triangle-with-partial-borders:before {\n  border-left: 8px solid transparent;\n  border-right: 8px solid transparent;\n  border-bottom: 6px solid red;\n  margin-left: -5px;\n  top: -6px;\n  z-index: 4;\n}\n.triangle-with-partial-borders:after {\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 5px solid #fff;\n  margin-left: -3px;\n  top: -5px;\n  z-index: 5;\n}",
+    "text": ".triangle-with-partial-borders {\r\n  border: 1px solid #333;\r\n  padding: 1.5em;\r\n  position: relative;\r\n  width: 50px;\r\n}\r\n.triangle-with-partial-borders:before,\r\n.triangle-with-partial-borders:after {\r\n  content: \"\";\r\n  display: block;\r\n  height: 0; \r\n  left: 50%;\r\n  position: absolute;\r\n  width: 0; \r\n}\r\n.triangle-with-partial-borders:before {\r\n  border-left: 8px solid transparent;\r\n  border-right: 8px solid transparent;\r\n  border-bottom: 6px solid red;\r\n  margin-left: -5px;\r\n  top: -6px;\r\n  z-index: 4;\r\n}\r\n.triangle-with-partial-borders:after {\r\n  border-left: 6px solid transparent;\r\n  border-right: 6px solid transparent;\r\n  border-bottom: 5px solid #fff;\r\n  margin-left: -3px;\r\n  top: -5px;\r\n  z-index: 5;\r\n}"
+  }
+]

@@ -3,14 +3,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Portfolio from "./pages/Portfolio";
 import Blogs from "./pages/Blogs";
-// import { NotFound } from "pages/404";
-
 import BlogsPages from "pages/Blogs/pages/index";
 
-// import Nav from "layouts/navbar/nav01";
+import HeaderLayout from "layouts/header";
 
-// const Portfolio = lazy(() => import("./pages/Portfolio"));
-
+const AmazonPriceNinja = lazy(() => import("./pages/Projects/AmazonPriceNinja/AmazonPriceNinja"));
+const PicDownloader = lazy(() => import("./pages/Projects/PicDownloader/PicDownloader"));
+const ColorPalettes = lazy(() => import("./pages/Projects/ColorPalettes"));
+const CssBoxShadow = lazy(() => import("./pages/Projects/CssBoxShadow"));
+const CssButtons = lazy(() => import("./pages/Projects/CssButtons"));
+const CssCheckboxes = lazy(() => import("./pages/Projects/CssCheckboxes"));
+const CssShapes = lazy(() => import("./pages/Projects/CssShapes"));
 // const NotFound = lazy(() => import("./pages/404"));
 
 // * ============
@@ -25,6 +28,70 @@ function App() {
           <Route path="/" element={<Portfolio />}></Route>
           <Route path="/blogs" element={<Blogs />}></Route>
           {/* <Route path="*" element={<NotFound />}></Route> */}
+          {/* Chrome Extension: Amazon PriceNinja */}
+          <Route
+            path="/amazon-price-ninja"
+            element={
+              <>
+                <HeaderLayout />
+                <AmazonPriceNinja />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/picdownloader"
+            element={
+              <>
+                <HeaderLayout />
+                <PicDownloader />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/color-palettes"
+            element={
+              <>
+                <HeaderLayout />
+                <ColorPalettes />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/css-box-shadow"
+            element={
+              <>
+                <HeaderLayout />
+                <CssBoxShadow />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/css-buttons"
+            element={
+              <>
+                <HeaderLayout />
+                <CssButtons />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/css-checkboxes"
+            element={
+              <>
+                <HeaderLayout />
+                <CssCheckboxes />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/css-shapes"
+            element={
+              <>
+                <HeaderLayout />
+                <CssShapes />
+              </>
+            }
+          ></Route>
         </Routes>
         <BlogsPages />
       </BrowserRouter>

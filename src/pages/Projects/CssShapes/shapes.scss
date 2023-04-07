@@ -1,0 +1,1077 @@
+// Triangle Up
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #333;
+}
+
+// Triangle Down
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #333;
+}
+
+// Triangle Left
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #333;
+  border-bottom: 25px solid transparent;
+}
+
+// Triangle Right
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #333;
+  border-bottom: 25px solid transparent;
+}
+
+// Arrow Up
+.arrow-up {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(225deg);
+}
+
+// Arrow Down
+.arrow-down {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(45deg);
+}
+
+// Arrow Left
+.arrow-left {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(135deg);
+}
+
+// Arrow Right
+.arrow-right {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(315deg);
+}
+
+// Thick Arrow Up
+.thick-arrow-up {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(225deg);
+}
+
+// Thick Arrow Down
+.thick-arrow-down {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(45deg);
+}
+
+// Thick Arrow Left
+.thick-arrow-left {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(135deg);
+}
+
+// Thick Arrow Right
+.thick-arrow-right {
+  width: 25px;
+  height: 25px;
+  border: 10px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(315deg);
+}
+
+// Bubble Top
+.bubble-top {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.66);
+  background: #333;
+  border-radius: 10px;
+}
+
+.bubble-top:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: calc(var(--size) * 0.13) solid transparent;
+  border-bottom-color: #333;
+  border-top: 0;
+  margin-left: calc(var(--size) * 0.13 * -1);
+  margin-top: calc(var(--size) * 0.13 * -1);
+}
+
+// Bubble Bottom
+.bubble-bottom {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.66);
+  background: #333;
+  border-radius: 10px;
+}
+
+.bubble-bottom:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: calc(var(--size) * 0.13) solid transparent;
+  border-top-color: #333;
+  border-bottom: 0;
+  margin-left: calc(var(--size) * 0.13 * -1);
+  margin-bottom: calc(var(--size) * 0.13 * -1);
+}
+
+// Bubble Left
+.bubble-left {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.66);
+  background: #333;
+  border-radius: 10px;
+}
+
+.bubble-left:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: calc(var(--size) * 0.13) solid transparent;
+  border-right-color: #333;
+  border-left: 0;
+  margin-top: calc(var(--size) * 0.13 * -1);
+  margin-left: calc(var(--size) * 0.13 * -1);
+}
+
+// Bubble Right
+.bubble-right {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.66);
+  background: #333;
+  border-radius: 10px;
+}
+
+.bubble-right:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: calc(var(--size) * 0.13) solid transparent;
+  border-left-color: #333;
+  border-right: 0;
+  margin-top: calc(var(--size) * 0.13 * -1);
+  margin-right: calc(var(--size) * 0.13 * -1);
+}
+
+// 5 Points Star
+.five-points-star {
+  /* Modify size here: */
+  --size: 50px;
+  --half-size: calc(var(--size) / 2);
+
+  position: relative;
+  display: block;
+  color: #333;
+  width: 0px;
+  height: 0px;
+  border-right: var(--half-size) solid transparent;
+  border-bottom: calc(var(--half-size) * 0.7) solid #333;
+  border-left: var(--half-size) solid transparent;
+  transform: rotate(35deg);
+}
+.five-points-star:before {
+  border-bottom: calc(var(--half-size) * 0.8) solid #333;
+  border-left: calc(var(--half-size) * 0.3) solid transparent;
+  border-right: calc(var(--half-size) * 0.3) solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: calc(var(--half-size) * 0.45 * -1);
+  left: calc(var(--half-size) * 0.65 * -1);
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+.five-points-star:after {
+  position: absolute;
+  display: block;
+  color: #333;
+  top: calc(var(--half-size) * 0.03);
+  left: calc(var(--half-size) * -1.05);
+  width: 0px;
+  height: 0px;
+  border-right: var(--half-size) solid transparent;
+  border-bottom: calc(var(--half-size) * 0.7) solid #333;
+  border-left: var(--half-size) solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+// Heart
+.heart {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.3);
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: calc(var(--size) * 0.55);
+  top: 0;
+  width: calc(var(--size) * 0.55);
+  height: calc(var(--size) * 0.85);
+  background: #333;
+  border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+// Heart With Clip Path
+.heart-with-clip-path {
+  display: inline-block;
+  width: 50px;
+  aspect-ratio: 1;
+  border-image: radial-gradient(#333 69%, #0000 70%) 84.5% fill/100%;
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+// Heart With Gradient
+.heart-with-gradient {
+  width: 50px;
+  display: inline-block;
+  -webkit-mask: radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left, radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
+    linear-gradient(to bottom left, red 43%, transparent 43%) bottom left, linear-gradient(to bottom right, red 43%, transparent 43%) bottom right;
+  -webkit-mask-size: 50% 50%;
+  -webkit-mask-repeat: no-repeat;
+  mask: radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left, radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
+    linear-gradient(to bottom left, red 43%, transparent 43%) bottom left, linear-gradient(to bottom right, red 43%, transparent 43%) bottom right;
+  mask-size: 50% 50%;
+  mask-repeat: no-repeat;
+  background: linear-gradient(red, blue);
+}
+
+.heart-with-gradient::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+// 12 Point Burst
+.twelve-point-burst {
+  background: #333;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+}
+.twelve-point-burst:before,
+.twelve-point-burst:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background: #333;
+}
+.twelve-point-burst:before {
+  transform: rotate(30deg);
+}
+.twelve-point-burst:after {
+  transform: rotate(60deg);
+}
+
+// 8 Point Burst
+.eight-point-burst {
+  background: #333;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  transform: rotate(20deg);
+}
+.eight-point-burst:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background: #333;
+  transform: rotate(135deg);
+}
+
+// Diamond Square
+.diamond-square {
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-bottom-color: #333;
+  position: relative;
+  top: -25px;
+}
+.diamond-square:after {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: #333;
+}
+
+// Diamond
+.diamond {
+  /* Modify size here: */
+  --size: 50px;
+  --quarter-size: calc(var(--size) / 4);
+
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+  border-width: 0 var(--quarter-size) var(--quarter-size) var(--quarter-size);
+  height: 0;
+  width: calc(var(--size) / 2);
+  box-sizing: content-box;
+  position: relative;
+  margin: 0 0 calc(var(--size) / 2) 0;
+}
+.diamond:after {
+  content: "";
+  position: absolute;
+  top: var(--quarter-size);
+  left: calc(var(--quarter-size) * -1);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  border-width: calc(var(--size) * 0.7) calc(var(--size) / 2) 0 calc(var(--size) / 2);
+}
+
+// Check Mark
+.check-mark {
+  width: 19px;
+  height: 33px;
+  border: 2px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(45deg);
+}
+
+// Thick Check Mark
+.thick-check-mark {
+  width: 19px;
+  height: 33px;
+  border: 10px solid #333;
+  border-left: 0;
+  border-top: 0;
+
+  transform: rotate(45deg);
+}
+
+// Triangle With Borders
+.triangle-with-borders {
+  position: relative;
+  width: 50px;
+  height: 38.6px;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid;
+}
+
+.triangle-with-borders,
+.triangle-with-borders::before {
+  display: block;
+  box-sizing: border-box;
+  border-right: 3px solid transparent;
+}
+
+.triangle-with-borders::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-left: 3px solid;
+  border-top: 3px solid;
+  border-bottom: 3px solid transparent;
+  transform: rotate(45deg) skew(10deg, 10deg);
+  left: -1px;
+  bottom: -25.5px;
+}
+
+// Cone
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 50px solid #333;
+  border-radius: 50%;
+}
+
+// Plus
+.plus {
+  background: #333;
+  height: 50px;
+  position: relative;
+  width: 8px;
+}
+.plus:after {
+  background: #333;
+  content: "";
+  height: 8px;
+  left: -21px;
+  position: absolute;
+  top: 21px;
+  width: 50px;
+}
+
+// Base
+.base {
+  background: #333;
+  display: inline-block;
+  height: 27.5px;
+  position: relative;
+  width: 50px;
+}
+.base:before {
+  border-bottom: 17.5px solid #333;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -17.5px;
+  width: 0;
+}
+
+// Yin Yang
+.yin-yang {
+  width: 50px;
+  box-sizing: content-box;
+  height: 25px;
+  background: #fff;
+  border-color: #333;
+  border-style: solid;
+  border-width: 2px 2px 26px 2px;
+  border-radius: 100%;
+  position: relative;
+}
+.yin-yang:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #fff;
+  border: 9.4px solid #333;
+  border-radius: 100%;
+  width: 6.25px;
+  height: 6.25px;
+  box-sizing: content-box;
+}
+.yin-yang:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #333;
+  border: 9.4px solid #fff;
+  border-radius: 100%;
+  width: 6.25px;
+  height: 6.25px;
+  box-sizing: content-box;
+}
+
+// Octagon
+.octagon {
+  width: 50px;
+  height: 50px;
+  background: #333;
+  position: relative;
+}
+.octagon:before {
+  content: "";
+  width: 20px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 15px solid #333;
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
+}
+.octagon:after {
+  content: "";
+  width: 20px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 15px solid #333;
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
+}
+
+// Oval
+.oval {
+  width: 50px;
+  height: 38px;
+  border-radius: 50%;
+  background: #333;
+}
+
+// Pac Man
+.pac-man {
+  width: 0px;
+  height: 0px;
+  border-right: 29px solid transparent;
+  border-top: 29px solid #333;
+  border-left: 29px solid #333;
+  border-bottom: 29px solid #333;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+}
+
+// Space Invader
+.space-invader {
+  /* Modify size here: */
+  --block-size: 5px;
+
+  box-shadow: 0 0 0 var(--block-size) #333, 0 var(--block-size) 0 var(--block-size) #333, calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * 0.5) #333,
+    calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * 0.5) #333, calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 #333,
+    calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 #333, calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 #333,
+    calc(var(--block-size) * 2) calc(var(--block-size) * -2) 0 0 #333, calc(var(--block-size) * -3) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * -2) calc(var(--block-size) * -1) 0 0 #333, calc(var(--block-size) * 2) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * 3) calc(var(--block-size) * -1) 0 0 #333, calc(var(--block-size) * -4) 0 0 0 #333, calc(var(--block-size) * -3) 0 0 0 #333, calc(var(--block-size) * 3) 0 0 0 #333,
+    calc(var(--block-size) * 4) 0 0 0 #333, calc(var(--block-size) * -5) var(--block-size) 0 0 #333, calc(var(--block-size) * -4) var(--block-size) 0 0 #333,
+    calc(var(--block-size) * 4) var(--block-size) 0 0 #333, calc(var(--block-size) * 5) var(--block-size) 0 0 #333, calc(var(--block-size) * -5) calc(var(--block-size) * 2) 0 0 #333,
+    calc(var(--block-size) * 5) calc(var(--block-size) * 2) 0 0 #333, calc(var(--block-size) * -5) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * -3) calc(var(--block-size) * 3) 0 0 #333, calc(var(--block-size) * 3) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * 5) calc(var(--block-size) * 3) 0 0 #333, calc(var(--block-size) * -2) calc(var(--block-size) * 4) 0 0 #333,
+    calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 #333, var(--block-size) calc(var(--block-size) * 4) 0 0 #333, calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 #333;
+  background: #333;
+  width: var(--block-size);
+  height: var(--block-size);
+  overflow: hidden;
+}
+
+// Moon
+.moon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 9px 9px 0 0 #333;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+// Flag
+.flag {
+  width: 50px;
+  height: 50px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background: #333;
+}
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid #fff;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+// Triangle Top Left
+.triangle-top-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #333;
+  border-right: 50px solid transparent;
+}
+
+// Triangle Top Right
+.triangle-top-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid #333;
+  border-left: 50px solid transparent;
+}
+
+// Triangle Bottom Left
+.triangle-bottom-left {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #333;
+  border-right: 50px solid transparent;
+}
+
+// Triangle Bottom Right
+.triangle-bottom-right {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #333;
+  border-left: 50px solid transparent;
+}
+
+// Trapezoid
+.trapezoid {
+  border-bottom: 40px solid #333;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 40px;
+}
+
+// Parallelogram
+.parallelogram {
+  width: 50px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #333;
+}
+
+// 6 Points Star
+.six-points-star {
+  /* Modify size here: */
+  --size: 25px;
+
+  width: 0;
+  height: 0;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: calc(var(--size) * 2) solid #333;
+  position: relative;
+}
+.six-points-star:after {
+  width: 0;
+  height: 0;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: calc(var(--size) * 2) solid #333;
+  position: absolute;
+  content: "";
+  top: calc(var(--size) / 2);
+  left: calc(var(--size) * -1);
+}
+
+// Hexagon
+.hexagon {
+  /* Modify size here: */
+  --size: 50px;
+
+  width: var(--size);
+  height: calc(var(--size) * 0.57735);
+  background: #333;
+  position: relative;
+}
+.hexagon::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--size) * -0.288675);
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: calc(var(--size) / 2) solid transparent;
+  border-right: calc(var(--size) / 2) solid transparent;
+  border-bottom: calc(var(--size) * 0.288675) solid #333;
+}
+.hexagon::after {
+  content: "";
+  position: absolute;
+  bottom: calc(var(--size) * -0.288675);
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: calc(var(--size) / 2) solid transparent;
+  border-right: calc(var(--size) / 2) solid transparent;
+  border-top: calc(var(--size) * 0.288675) solid #333;
+}
+
+// Pentagon
+.pentagon {
+  --size: 30px;
+
+  position: relative;
+  width: var(--size);
+  box-sizing: content-box;
+  border-width: calc(var(--size) * 0.925) calc(var(--size) * 0.333) 0;
+  border-style: solid;
+  border-color: #333 transparent;
+}
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: calc(var(--size) * -1.574);
+  left: calc(var(--size) * -0.333);
+  border-width: 0 calc(var(--size) * 0.833) calc(var(--size) * 0.648);
+  border-style: solid;
+  border-color: transparent transparent #333;
+}
+
+// Infinity
+.infinity {
+  /* Modify size here: */
+  --size: 50px;
+  --thickness: calc(var(--size) * 0.1);
+
+  position: relative;
+  width: var(--size);
+  height: calc(var(--size) * 0.47);
+  box-sizing: content-box;
+}
+.infinity:before,
+.infinity:after {
+  content: "";
+  box-sizing: content-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--size) * 0.28);
+  height: calc(var(--size) * 0.28);
+  border: var(--thickness) solid #333;
+  border-radius: 50px 50px 0 50px;
+  transform: rotate(-45deg);
+}
+.infinity:after {
+  left: calc(44% + var(--thickness));
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  transform: rotate(45deg);
+}
+
+// Egg
+.egg {
+  /* Modify size here: */
+  --size: 50px;
+
+  display: block;
+  width: var(--size);
+  height: calc(var(--size) * 1.44);
+  background-color: #333;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+// Badge Ribbon
+.badge-ribbon {
+  /* Modify size here: */
+  --size: 50px;
+
+  position: relative;
+  background: #333;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50px;
+}
+
+.badge-ribbon:before,
+.badge-ribbon:after {
+  content: "";
+  position: absolute;
+  border-bottom: calc(var(--size) * 0.7) solid #333;
+  border-left: calc(var(--size) * 0.4) solid transparent;
+  border-right: calc(var(--size) * 0.4) solid transparent;
+  top: calc(var(--size) * 0.7);
+  left: calc(var(--size) * -0.1);
+  transform: rotate(-140deg);
+}
+
+.badge-ribbon:after {
+  left: auto;
+  right: calc(var(--size) * -0.1);
+  transform: rotate(140deg);
+}
+
+// Tv Screen
+.tv-screen {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  background: #333;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+}
+
+.tv-screen:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+// Cylinder
+.cylinder {
+  width: 50px;
+  height: 70px;
+  /* border-radius: horziontal values / vertical values */
+  border-radius: 50px 50px / 20px 20px;
+  background: #333;
+}
+
+// Price Tag
+.price-tag {
+  display: inline-block;
+
+  width: auto;
+  height: 38px;
+
+  background-color: #333;
+  -webkit-border-radius: 3px 4px 4px 3px;
+  -moz-border-radius: 3px 4px 4px 3px;
+  border-radius: 3px 4px 4px 3px;
+
+  border-left: 1px solid #333;
+
+  /* This makes room for the triangle */
+  margin-left: 19px;
+
+  position: relative;
+
+  color: white;
+  line-height: 38px;
+
+  padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.price-tag:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -19px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-right: 19px solid #333;
+}
+
+/* Makes the circle */
+.price-tag:after {
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  left: -9px;
+  top: 17px;
+}
+
+// Tooltip Top
+.tooltip-top {
+  /* Modify size here: */
+  --size: 50px;
+  --padding: 10px;
+
+  position: relative;
+  width: calc(var(--size) - var(--padding));
+  height: calc(var(--size) / 2);
+  background: #333;
+  padding: var(--padding);
+}
+
+.tooltip-top:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #333;
+  height: 16px;
+  width: 16px;
+}
+
+// Tooltip Bottom
+.tooltip-bottom {
+  /* Modify size here: */
+  --size: 50px;
+  --padding: 10px;
+
+  position: relative;
+  width: calc(var(--size) - var(--padding));
+  height: calc(var(--size) / 2);
+  background: #333;
+  padding: var(--padding);
+}
+
+.tooltip-bottom:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #333;
+  height: 16px;
+  width: 16px;
+}
+
+// Tooltip Left
+.tooltip-left {
+  /* Modify size here: */
+  --size: 50px;
+  --padding: 10px;
+
+  position: relative;
+  width: calc(var(--size) - var(--padding));
+  height: calc(var(--size) / 2);
+  background: #333;
+  padding: var(--padding);
+}
+
+.tooltip-left:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #333;
+  height: 16px;
+  width: 16px;
+}
+
+// Tooltip Right
+.tooltip-right {
+  /* Modify size here: */
+  --size: 50px;
+  --padding: 10px;
+
+  position: relative;
+  width: calc(var(--size) - var(--padding));
+  height: calc(var(--size) / 2);
+  background: #333;
+  padding: var(--padding);
+}
+
+.tooltip-right:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #333;
+  height: 16px;
+  width: 16px;
+}
+
+// Triangle With Partial Borders
+.triangle-with-partial-borders {
+  border: 1px solid #333;
+  padding: 1.5em;
+  position: relative;
+  width: 50px;
+}
+.triangle-with-partial-borders:before,
+.triangle-with-partial-borders:after {
+  content: "";
+  display: block;
+  height: 0;
+  left: 50%;
+  position: absolute;
+  width: 0;
+}
+.triangle-with-partial-borders:before {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 6px solid red;
+  margin-left: -5px;
+  top: -6px;
+  z-index: 4;
+}
+.triangle-with-partial-borders:after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 5px solid #fff;
+  margin-left: -3px;
+  top: -5px;
+  z-index: 5;
+}

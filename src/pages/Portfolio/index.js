@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 
@@ -15,27 +15,37 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import SideBar from "./components/sidebar";
 
+import { ScrollAnimate } from "components/animate/ScrollAnimate";
+
 function Portfolio() {
   ReactGA.pageview("/portfolio-brittanychiang");
 
+  useEffect(() => {
+    ScrollAnimate("experience", "animate-fade-in");
+    ScrollAnimate("projects", "animate-fade-in");
+    ScrollAnimate("blogs", "animate-fade-in");
+    ScrollAnimate("contact", "animate-fade-in");
+  });
   return (
     <div className="Portfolio-Brittanychiang">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Tuan Le v2.0.2</title>
+        <title>Tuan Le</title>
       </Helmet>
       <div className="layout">
         <Navbar />
         <div className="container">
-          <Hero />
-          <About />
-          <Jobs />
-          <Projects />
-          <Blogs />
-          <Contact />
+          <div className="parts-container">
+            <Hero />
+            <About />
+            <Jobs />
+            <Projects />
+            <Blogs />
+            <Contact />
+            <Footer />
+          </div>
         </div>
         <SideBar />
-        <Footer />
       </div>
     </div>
   );

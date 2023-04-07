@@ -8,3 +8,11 @@ export default function CodeBlock({ children }) {
     </SyntaxHighlighter>
   );
 }
+
+export function CodeBlockCSS({ children }) {
+  return (
+    <SyntaxHighlighter language="javascript" style={docco}>
+      {children}
+    </SyntaxHighlighter>
+  );
+}

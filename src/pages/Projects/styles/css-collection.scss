@@ -1,0 +1,76 @@
+@import "breakpoints";
+@import "styles/color.scss";
+
+.css-collection-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 80%;
+
+    .header {
+      text-align: center;
+      h1 {
+        font-size: 5em;
+        font-family: "Lobster", cursive;
+      }
+      p {
+        color: #606c38;
+        font-size: 1.3em;
+        width: 80%;
+        margin-left: 10%;
+      }
+    }
+    .explore-items-container {
+      display: flex;
+      justify-content: center;
+      // width: 100%;
+      .explore-items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 100px;
+        width: $width-xl;
+        .item-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 200px;
+          height: 200px;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-bottom: 100px;
+          margin-right: 100px;
+        }
+      }
+    }
+  }
+
+  .css-buttons-item {
+    margin-right: 50px !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    &:hover {
+      outline: 1px solid $green;
+    }
+  }
+  .css-checkboxes-item {
+    margin-right: 25px !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    &:hover {
+      outline: 1px solid $green;
+    }
+  }
+  .css-shapes-item {
+    position: relative;
+    margin-right: 25px !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    &:hover {
+      outline: 1px solid $green;
+    }
+    p {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}

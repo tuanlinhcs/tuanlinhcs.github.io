@@ -1,6 +1,6 @@
 {
   "name": "tuanlinhcs",
-  "version": "2.0.0",
+  "version": "2.5.0",
   "homepage": ".",
   "main": "index.js",
   "license": "",
@@ -16,6 +16,7 @@
     "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "bootstrap": "^4.6.0",
+    "file-saver": "^2.0.5",
     "node-sass": "^6.0.0",
     "query-string": "^4.3.4",
     "react": "^18.2.0",

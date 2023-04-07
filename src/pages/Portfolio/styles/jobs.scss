@@ -18,7 +18,6 @@
       display: flex;
       @include breakpoint(sm) {
         display: block;
-        overflow-x: scroll;
       }
       .col-left {
         margin-right: 10%;

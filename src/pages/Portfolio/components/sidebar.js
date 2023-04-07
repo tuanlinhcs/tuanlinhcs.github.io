@@ -10,22 +10,22 @@ export default function SideBar() {
       <div className="sidebar-left">
         <ul>
           <li>
-            <a href="https://www.facebook.com/kleanhtuan/">
+            <a href="https://www.facebook.com/kleanhtuan/" aria-label="facebook" target="_blank" rel="noopener noreferrer">
               <AiOutlineFacebook className="icon" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/tuan.le48/">
+            <a href="https://www.instagram.com/tuan.le48/" aria-label="instagram" target="_blank" rel="noopener noreferrer">
               <FiInstagram className="icon" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/letuan317/">
+            <a href="https://www.linkedin.com/in/letuan317/" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
               <FiLinkedin className="icon" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/letuan317">
+            <a href="https://github.com/letuan317" aria-label="github" target="_blank" rel="noopener noreferrer">
               <FiGithub className="icon" />
             </a>
           </li>

@@ -37,11 +37,11 @@ export default function About() {
         <p>Thank you for visiting my portfolio!</p>
       </div>
       <div className="col-50">
-        <div className="author-image">
-          <div className="image-frame"></div>
+        <div className="author-image-container">
           <LazyLoad placeholder={<ImageSkeleton />}>
-            <img src={IMG_me} alt="Tuan Le" />
+            <img src={IMG_me} alt="Tuan Le" className="author-image" />
           </LazyLoad>
+          <div className="image-frame"></div>
         </div>
       </div>
     </section>

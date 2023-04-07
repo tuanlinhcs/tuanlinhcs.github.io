@@ -7,6 +7,7 @@ import ReactGA from "react-ga";
 import "./index.scss";
 import "styles/fonts.scss";
 import "styles/responsive.scss";
+import "styles/animation.scss";
 import "components/ui/buttons/index.scss";
 
 ReactGA.initialize("274236139");

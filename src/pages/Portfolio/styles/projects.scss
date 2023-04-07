@@ -41,7 +41,13 @@
           background-color: var(--navy-shadow);
           padding: 10%;
         }
-
+        a {
+          text-decoration: none;
+          color: var(--lightest-slate);
+          &:hover {
+            color: var(--blue);
+          }
+        }
         h3 {
           color: var(--green);
           font-size: var(--fz-md);
@@ -97,6 +103,7 @@
           }
           span {
             margin-left: 5%;
+            opacity: 0.5;
             @include breakpoint(md) {
               margin-left: 0;
               margin-right: 5%;
@@ -127,6 +134,7 @@
           justify-content: left;
           span {
             margin-right: 5%;
+            opacity: 0.5;
           }
         }
         .links {
@@ -135,6 +143,58 @@
               margin-right: 5%;
             }
           }
+        }
+      }
+    }
+
+    .tools-container {
+      width: 100%;
+      margin-top: 50px;
+      border-top: 1px solid var(--light-navy);
+      border-bottom: 1px solid var(--light-navy);
+      padding-bottom: 50px;
+      h3 {
+        text-align: center;
+        width: 90%;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      a {
+        text-decoration: none !important;
+        color: white;
+      }
+      .tool {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        padding: 10px 10px 10px 20px;
+        transition: background-color 0.5s ease-in-out;
+        width: 200px;
+        height: 200px;
+
+        &:hover {
+          outline: 1px solid var(--light-navy);
+          border-radius: 10px;
+          background-color: var(--light-navy);
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          color: var(--green);
+        }
+        .icon-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .tool-icon {
+          $size: 75px;
+          width: $size;
+          height: $size;
+        }
+        h3 {
+          width: 100%;
         }
       }
     }

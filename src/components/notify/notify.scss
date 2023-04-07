@@ -1,0 +1,40 @@
+.notify-copy-to-clipboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  opacity: 0;
+  animation: animationNotify 3s ease-in-out;
+  z-index: 99;
+  @keyframes animationNotify {
+    0% {
+      bottom: 30px;
+      opacity: 1;
+    }
+    10% {
+      bottom: 50px;
+    }
+    90% {
+      bottom: 50px;
+      opacity: 1;
+    }
+    100% {
+      bottom: 0px;
+      opacity: 0;
+    }
+  }
+  .notify {
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      margin-right: 5px;
+    }
+  }
+}

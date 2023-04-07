@@ -1,0 +1,205 @@
+@import "breakpoints";
+
+$color-hazel: #495144;
+$color-obsidian: #2f332f;
+
+.chrome-extension-container {
+  padding-top: 150px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $color-obsidian;
+  color: white;
+
+  .max-width {
+    width: map-get($breakpoints, "xl") !important;
+  }
+
+  .product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-left: 2%;
+    }
+  }
+  .product-banner {
+    $banner-height: 400px;
+    background-color: $color-hazel;
+    height: $banner-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    @include breakpoint(md) {
+      height: auto;
+      width: 100%;
+    }
+    .container {
+      max-width: $width-xl;
+      display: flex;
+      justify-content: center;
+      @include breakpoint(md) {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+      }
+    }
+    .banner-left-container {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      height: $banner-height;
+      @include breakpoint(xl) {
+        width: 40%;
+      }
+      @include breakpoint(md) {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        margin-bottom: 50px;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 0;
+        @include breakpoint(md) {
+          font-size: 2em;
+        }
+        @include breakpoint(sm) {
+          font-size: 1.5em;
+        }
+      }
+      .chrome-extension-button {
+        display: flex;
+        align-items: center;
+        background-color: #1da462;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+        cursor: pointer;
+        &:hover {
+          background-color: #4c8bf5;
+        }
+      }
+    }
+    .banner-right-container {
+      width: 50%;
+      height: $banner-height;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      @include breakpoint(md) {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      .slideshow {
+        width: 100%;
+        .slide-image {
+          width: 100%;
+          object-fit: cover;
+          z-index: 1;
+          position: relative;
+        }
+        .blur-background-image {
+          filter: blur(20px) grayscale(100%);
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: 0;
+          top: 0;
+        }
+      }
+
+      .slideshow-controller {
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        z-index: 9;
+        bottom: 20px;
+        width: 100%;
+        .icon {
+          width: 40px;
+          height: 40px;
+          color: $color-obsidian;
+          cursor: pointer;
+          &:hover {
+            color: $color-hazel;
+          }
+        }
+        .slide-index {
+          display: flex;
+          align-items: center;
+          .icon-index {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .product-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    section {
+      width: 90%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      h1 {
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 50px;
+      }
+      .highlight-features-container {
+        display: flex;
+        justify-content: space-around;
+        @include breakpoint(sm) {
+          flex-wrap: wrap;
+        }
+        .item-container {
+          width: 25%;
+          @include breakpoint(sm) {
+            width: 40%;
+            margin-bottom: 40px;
+            border: 1px solid $color-hazel;
+            border-radius: 10px;
+            background-color: $color-hazel;
+            padding: 20px 10px 0px 10px;
+          }
+          .icon-feature-container {
+            display: flex;
+            justify-content: center;
+            .icon-feature {
+              width: 50px;
+              height: 50px;
+            }
+          }
+          p {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .content {
+      width: 80%;
+      background-color: $color-hazel;
+      border-radius: 10px;
+      padding: 5%;
+      position: relative;
+      overflow: hidden;
+      img {
+        width: 80%;
+        margin-left: 10%;
+      }
+    }
+  }
+}

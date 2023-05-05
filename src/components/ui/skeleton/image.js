@@ -1,3 +1,4 @@
+import "./style.scss";
 function ImageSkeleton() {
   return (
     <div className="image-lazy-loading">

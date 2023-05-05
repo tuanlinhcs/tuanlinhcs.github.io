@@ -5,6 +5,8 @@ export function ScrollAnimate(my_element_id, animate_name) {
     const scrollPosition = window.scrollY + window.innerHeight;
     if (scrollPosition > elementPosition) {
       element.classList.add(animate_name);
+    } else {
+      element.classList.remove(animate_name);
     }
   };
 

@@ -1,4 +1,4 @@
-import LazyLoad from "react-lazyload";
+import React, { Suspense } from "react";
 import { ImageSkeleton } from "../ui/images/skeleton";
 
 import "../styles/about.scss";
@@ -38,9 +38,9 @@ export default function About() {
       </div>
       <div className="col-50">
         <div className="author-image-container">
-          <LazyLoad placeholder={<ImageSkeleton />}>
+          <Suspense fallback={<ImageSkeleton />}>
             <img src={IMG_me} alt="Tuan Le" className="author-image" />
-          </LazyLoad>
+          </Suspense>
           <div className="image-frame"></div>
         </div>
       </div>

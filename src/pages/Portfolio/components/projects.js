@@ -1,4 +1,4 @@
-import LazyLoad from "react-lazyload";
+import React, { Suspense } from "react";
 import { ImageSkeleton } from "../ui/images/skeleton";
 
 import ProjectsDB from "data/projects";
@@ -18,14 +18,16 @@ function ProjectTheme({ project, type }) {
   return (
     <div className={"project-theme type-" + type}>
       <div className="image-container">
-        <LazyLoad placeholder={<ImageSkeleton />}>
+        <Suspense fallback={<ImageSkeleton />}>
           <img src={project.imageURl} alt={project.name} />
-        </LazyLoad>
+        </Suspense>
       </div>
       <div className="project-info">
         <h3>{project.type} Project</h3>
         <h1>
-          <a href={project.link}>{project.name}</a>
+          <a href={project.link} target="_blank" rel="noreferrer">
+            {project.name}
+          </a>
         </h1>
         <div className="box">
           <p>{project.description}</p>

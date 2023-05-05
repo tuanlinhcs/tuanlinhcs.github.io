@@ -7,8 +7,6 @@ import BlogsPages from "pages/Blogs/pages/index";
 
 import HeaderLayout from "layouts/header";
 
-const AmazonPriceNinja = lazy(() => import("./pages/Projects/AmazonPriceNinja/AmazonPriceNinja"));
-const PicDownloader = lazy(() => import("./pages/Projects/PicDownloader/PicDownloader"));
 const ColorPalettes = lazy(() => import("./pages/Projects/ColorPalettes"));
 const CssBoxShadow = lazy(() => import("./pages/Projects/CssBoxShadow"));
 const CssButtons = lazy(() => import("./pages/Projects/CssButtons"));
@@ -29,24 +27,6 @@ function App() {
           <Route path="/blogs" element={<Blogs />}></Route>
           {/* <Route path="*" element={<NotFound />}></Route> */}
           {/* Chrome Extension: Amazon PriceNinja */}
-          <Route
-            path="/amazon-price-ninja"
-            element={
-              <>
-                <HeaderLayout />
-                <AmazonPriceNinja />
-              </>
-            }
-          ></Route>
-          <Route
-            path="/picdownloader"
-            element={
-              <>
-                <HeaderLayout />
-                <PicDownloader />
-              </>
-            }
-          ></Route>
           <Route
             path="/color-palettes"
             element={

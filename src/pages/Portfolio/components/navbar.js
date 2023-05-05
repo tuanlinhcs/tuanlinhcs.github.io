@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import LazyLoad from "react-lazyload";
+import React, { Suspense, useState } from "react";
 import Logo from "assets/images/logo.png";
 
 import "../styles/navbar.scss";
@@ -20,16 +19,19 @@ function NavBar() {
       document.getElementById("nav-links").classList.remove("nav-mobile");
     }
   };
-  const handleClick = () => {
-    var element = document.getElementById("my-element");
-    element.scrollIntoView({ behavior: "smooth" });
+  const handleClick = (elementID) => {
+    try {
+      var element = document.getElementById(elementID);
+      element.scrollIntoView({ behavior: "smooth" });
+    } catch (error) {}
   };
   return (
     <nav className="nav-portfolio-20230223">
       <div className="nav-logo">
-        <LazyLoad placeholder={<ImageSkeleton />}>
+        <Suspense fallback={<ImageSkeleton />}>
           <img src={Logo} alt="logo" />
-        </LazyLoad>
+        </Suspense>
+        <h1>Tuan Le</h1>
       </div>
       <div id="nav-icon2" onClick={handleBurgerMenu}>
         <span></span>

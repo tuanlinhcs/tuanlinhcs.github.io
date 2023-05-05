@@ -5,8 +5,13 @@
     margin-bottom: 200px;
 
     h1 {
+      position: relative;
       margin: 0;
       font-size: clamp(20px, 8vw, 40px);
+      span {
+        width: 200px;
+        color: var(--green);
+      }
     }
     .name {
       color: var(--white);

@@ -61,6 +61,20 @@
         height: $author-image-size;
         border-radius: 5px;
         z-index: 2;
+        animation: fadeIn 1s ease-in;
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+            margin-top: 25px;
+            margin-left: 50px;
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
       }
       .image-frame {
         position: absolute;

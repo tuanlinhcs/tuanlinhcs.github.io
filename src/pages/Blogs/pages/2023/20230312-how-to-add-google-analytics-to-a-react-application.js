@@ -1,5 +1,5 @@
+import React, { Suspense } from "react";
 import { Helmet } from "react-helmet";
-import LazyLoad from "react-lazyload";
 import CodeBlock from "components/code/codeBlock.js";
 
 import Layout from "layouts/layout";
@@ -52,9 +52,9 @@ export default function page_20230312() {
           <article>
             <h1>How to Add Google Analytics to a React Application</h1>
             <p className="timestamp">{data.timestamp}</p>
-            <LazyLoad once={true} placeholder={<img src={skeleton} alt="Loading..." />}>
+            <Suspense fallback={<img src={skeleton} alt="Loading..." />}>
               <img src={data.src} alt="img" />
-            </LazyLoad>
+            </Suspense>
             <p>
               Google Analytics is a powerful tool that helps website owners track website traffic, user engagement, and other metrics. Adding Google Analytics to a React application can be a bit
               tricky, but it is essential to track user behavior and make data-driven decisions to improve the user experience. In this article, we will discuss how to add Google Analytics to a React

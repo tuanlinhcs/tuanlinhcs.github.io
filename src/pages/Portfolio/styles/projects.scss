@@ -199,31 +199,4 @@
       }
     }
   }
-
-  .image-lazy-loading {
-    display: block;
-    width: 100%;
-    height: 500px;
-    opacity: 1;
-    background-color: var(--dark-slate);
-    position: relative;
-    overflow: hidden;
-    .shine-line {
-      width: 10%;
-      height: 500px;
-      background: linear-gradient(to right, #495670, #5b6a8a, #687ba0, #5b6a8a, #495670);
-      opacity: 0.5;
-
-      animation: animateMoveRight 1.6s ease-in-out infinite;
-      position: absolute;
-    }
-    @keyframes animateMoveRight {
-      from {
-        left: -10%;
-      }
-      to {
-        left: 100%;
-      }
-    }
-  }
 }

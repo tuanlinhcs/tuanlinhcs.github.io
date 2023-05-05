@@ -21,6 +21,7 @@ function Portfolio() {
   ReactGA.pageview("/portfolio-brittanychiang");
 
   useEffect(() => {
+    ScrollAnimate("about", "animate-fade-in");
     ScrollAnimate("experience", "animate-fade-in");
     ScrollAnimate("projects", "animate-fade-in");
     ScrollAnimate("blogs", "animate-fade-in");

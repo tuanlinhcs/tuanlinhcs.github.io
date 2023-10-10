@@ -18,6 +18,8 @@ const CssShapes = lazy(() => import("./pages/Projects/CssShapes"));
 // * = Projects =
 // * ============
 
+const OnlineVideoDownloader = lazy(() => import("./pages/Projects/OnlineVideoDownloader"));
+
 function App() {
   return (
     <>
@@ -72,6 +74,9 @@ function App() {
               </>
             }
           ></Route>
+
+          {/* Tools */}
+          <Route path="/online-video-downloader" element={<OnlineVideoDownloader />}></Route>
         </Routes>
         <BlogsPages />
       </BrowserRouter>
